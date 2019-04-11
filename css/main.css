@@ -1,0 +1,63 @@
+/*Utility Class*/
+.hide
+{
+	display: none;
+}
+
+/* General rules - scales images, videos to size of container */
+img, embed, object, video {
+  max-width: 100%; }
+
+
+/*switch box model*/
+html {
+  box-sizing: border-box; 
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+/*Fix for scaling of images IE*/
+img {
+  -ms-interpolation-mode: bicubic; 
+}
+
+/*Fonts*/
+@font-face {
+font-family: 'Roboto', sans-serif;
+font-weight: normal;
+font-style: normal;
+}
+
+
+body
+{
+	font-family: 'Roboto', sans-serif;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+a 
+{ 
+  color:#000; 
+  text-decoration: none;  
+  transition:all .1s linear 0s;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3
+{
+    font-family: 'Playfair Display', serif;
+	color: #215445;
+}
+
+
+#traaLogo
+{
+  display: block;
+  max-width: 120px;
+}
