@@ -1,10 +1,29 @@
-//create a pickel jar, label it as firstName, put a string in it.
-//var firstName = "Mallory";
+(function(){
+	"use strict";
+	
+	console.log("fired!!!");
 
-//alert("Howdy" + " " + firstName);
+	var button = document.querySelector("#button");
+	var burgerCon = document.querySelector("#burgerCon");
 
-//mordern js
+	function hamburgerMenu() {
+		burgerCon.classList.toggle("slideToggle");
+		button.classList.toggle("expanded");
+	}
 
-//alert(`Hello ${firstName} !!!`);
+	function closeMenu() {
 
-console.log("Javascript is Linked up");
+		if (window.matchMedia("(min-width: 1024px)").matches && burgerCon.classList.contains('slideToggle') ) {
+		console.log("media query fired");
+		burgerCon.classList.remove('slideToggle');
+		button.classList.remove('expanded');
+		}
+
+	}
+
+	button.addEventListener("click", hamburgerMenu, false);
+
+	window.addEventListener("resize", closeMenu);
+
+		
+})();

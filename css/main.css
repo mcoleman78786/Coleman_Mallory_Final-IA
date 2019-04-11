@@ -56,6 +56,126 @@ h1, h2, h3
 }
 
 
+
+.container {
+  margin: 0px auto;
+  padding: 0px 15px 0 15px;
+  max-width: 1200px; 
+}
+
+#mainHeader
+{
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+/*want to push buger to far right, set parent as flex*/
+#mainNav
+{
+  display: flex;
+  flex-direction: column;
+  background: #5D7132;
+  margin: 0 auto;
+}
+
+#mainNav button
+{
+  background: url(../images/burger.svg) center no-repeat;
+  width: 41px;
+  height: 70px;
+  border: 0px;
+  transition: all 400ms ease;
+  margin-left: auto;
+}
+
+
+#mainNav:hover button
+{
+  background: url(../images/burger_hover.svg) center no-repeat;
+  width: 41px;
+  height: 70px;
+  border: 0px;
+  transition: all 400ms ease;
+  margin-left: auto;
+}
+#mainNav button.expanded
+{
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#mainNav li a
+{
+  display: block;
+  padding: 10px 0 10px 0; /*trbl*/
+  color: white;
+  text-align: center;
+}
+
+
+#mainNav li
+{
+  border-bottom: 1px solid white;
+}
+
+#mainNav li:first-child
+{
+  border-top: 1px solid white;
+}
+
+#mainNav li:last-child
+{
+  margin-bottom: 10px;
+}
+
+#burgerCon
+{
+  margin-top: 20px;
+  display: none;
+  margin-bottom: 20px;
+}
+
+
+/*Main Nav colour hover*/
+#home:hover
+{
+	color: #D8AE58;
+}
+
+#about:hover
+{
+	color: #D8AE58;
+}
+
+#project:hover
+{
+	color: #D8AE58;
+}
+
+#newsletters:hover
+{
+	color: #D8AE58;
+}
+
+#links:hover
+{
+	color: #D8AE58;
+}
+
+#contact:hover
+{
+	color: #D8AE58;
+}
+/*DONE MAIN COLOUR HOVER*/
+
+
+#burgerCon.slideToggle
+{
+  display: block;
+}
+
+
 #traaLogo
 {
   display: block;
