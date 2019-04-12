@@ -52,14 +52,14 @@ a
 h1, h2, h3
 {
     font-family: 'Playfair Display', serif;
-	color: #215445;
+	color: #986600;
 }
 
 
 
 .container {
   margin: 0px auto;
-  padding: 0px 15px 0 15px;
+  padding: 0px;
   max-width: 1200px; 
 }
 
@@ -178,6 +178,28 @@ h1, h2, h3
 
 #traaLogo
 {
-  display: block;
-  max-width: 120px;
+	display: block;
+	max-width: 120px;
+	margin: 0 auto;
 }
+
+#logoCon
+{
+	display: block;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+#logoCon h1
+{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+	display: block;
+	font-size: 25px !important;
+}
+
+
+
