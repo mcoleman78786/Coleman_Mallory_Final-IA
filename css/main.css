@@ -346,44 +346,18 @@ p
 
 /*START GALLERY FOR HOME PAGE*/
 
-/*TOP SELECTION OF GALLERY*/
-#eggs
+#galleryPictures
 {
 	width: 112.5px;
 	height: 113px;
 }
-
-#babies
-{
-	width: 112.5px;
-	height: 113px;
-}
-
-#redFish
-{
-	width: 112.5px;
-	height: 113px;
-}
-/*END TOP SELECTION*/
-
-
-/*START BOTTOM SELECTION OF GALLERY*/
-#conservationArea
-{
-	width: 112.5px;
-	height: 113px;
-}
-
-#riverCleaning
-{
-	width: 112.5px;
-	height: 113px;
-}
-
-#garbage
-{
-	width: 112.5px;
-	height: 113px;
-}
-
 /*END BOTTOM SELECTION OF GALLERY*/
+
+
+/*FOOTER*/
+
+.socialSize
+{
+	width: 25.6px;
+	height: 25.6px;
+}
