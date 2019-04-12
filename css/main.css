@@ -1,5 +1,5 @@
 /*Utility Class*/
-.hide
+.hidden
 {
 	display: none;
 }
@@ -61,6 +61,7 @@ h1, h2, h3
   margin: 0px auto;
   padding: 0px;
   max-width: 1200px; 
+  padding: 0px 10px 0 10px;
 }
 
 #mainHeader
@@ -186,7 +187,6 @@ h1, h2, h3
 #logoCon
 {
 	display: flex;
-	flex-wrap: wrap;
 	max-width: 375px;
 	margin: 0 auto;
 	margin-top: 20px;
@@ -196,18 +196,47 @@ h1, h2, h3
 {
 	margin: 0 auto;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 40px;
 	font-size: 25px !important;
 }
 
 #lineMobile
 {
-	width: 364px;
+	max-width: 364px;
 	height: 1px;
 	margin: 0 auto;
-	margin-top: 30px;
+	margin-top: 50px;
 	background-color: #A1C157;
 }
 
+#homeInfo
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 60px;
+}
+
+#homeInfo p
+{
+	color: #727070;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+#mapMobile
+{
+	width: 163px;
+	height: 251px;
+}
+
+#mainInfo p
+{
+	margin-top: 30px !important;
+	color: #727070;
+	font-size: 16px;
+	margin: 0 auto;
+	line-height: 22px;
+	text-align: justify;
+}
 
 
