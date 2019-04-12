@@ -322,8 +322,7 @@ p
 
 .socialSize
 {
-	width: 26px;
-	height: 26px;
+	width: 10%;
 }
 
 #Home, #About, #Project, #Newsletters, #Links, #Contact
@@ -351,4 +350,39 @@ p
 {
 	width: 72px;
 	height: 72px;
+}
+
+/*FOOTER INFOMATION TEXT*/
+#footerCon p
+{
+  color: white;
+  font-size: 16px;
+}
+
+
+/*COPY RIGHT TEXT*/
+#copyright
+{
+  color: white;
+  font-size: 14px;
+}
+
+
+/*START ABOUT PAGE CONTENT*/
+
+#aboutTraa
+{
+  font-size: 17px;
+  letter-spacing: .25px;
+  line-height: 18px;
+}
+
+.aboutContainer ul li
+{
+  font-family: 'EB Garamond', serif;
+  color: #727070; 
+  font-size: 16px;
+  letter-spacing: .25px;
+  margin-top: 12px;
+  line-height: 18px;
 }
