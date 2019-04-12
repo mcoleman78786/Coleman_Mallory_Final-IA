@@ -310,7 +310,7 @@ p
 
 /*START GALLERY FOR HOME PAGE*/
 
-#galleryPictures
+#eggs, #babies, #redFish, #conservatonArea, #riverCleaning, #garbage
 {
 	width: 112.5px;
 	height: 113px;
@@ -322,8 +322,8 @@ p
 
 .socialSize
 {
-	width: 25.6px;
-	height: 25.6px;
+	width: 26px;
+	height: 26px;
 }
 
 #Home, #About, #Project, #Newsletters, #Links, #Contact
@@ -343,4 +343,12 @@ p
 #footerCon
 {
 	background-color: #2F2D2D;
+}
+
+/*FOOTER LOGO*/
+
+#footertraaLogo
+{
+	width: 72px;
+	height: 72px;
 }
