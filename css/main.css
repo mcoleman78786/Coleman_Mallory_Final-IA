@@ -50,6 +50,7 @@ h1, h2, h3
 {
     font-family: 'EB Garamond', serif;
     color: #986600;
+    font-size: 23px;
 }
 
 
@@ -223,6 +224,8 @@ p
 	height: 251px;
 }
 
+
+/*START MEMEBERSHIP AND FUNDRAISING SELECTION*/
 #membership h2
 {
   display: block;
@@ -289,6 +292,8 @@ p
   color: #FFFFFF;
 }
 
+
+/*START SUPPORTERS LOGOS*/
 #melchers
 {
 	width: 150px;
@@ -301,3 +306,84 @@ p
 	height: 42px;
 }
 
+#muma 
+{
+	width: 146px;
+	height: 41px;
+}
+
+#tryRecycling
+{
+	width: 146px;
+	height: 58px;
+}
+
+#anglingSports
+{
+	width: 97px;
+	height: 109px;
+}
+
+#hats
+{
+	width: 120px;
+	height: 173px;
+}
+
+#tShirts
+{
+	width: 120px;
+	height: 173px;
+}
+
+#keyChains
+{
+	width: 120px;
+	height: 173px;
+}
+/*END SUPPORTERS LOGOS*/
+
+
+/*START GALLERY FOR HOME PAGE*/
+
+/*TOP SELECTION OF GALLERY*/
+#eggs
+{
+	width: 112.5px;
+	height: 113px;
+}
+
+#babies
+{
+	width: 112.5px;
+	height: 113px;
+}
+
+#redFish
+{
+	width: 112.5px;
+	height: 113px;
+}
+/*END TOP SELECTION*/
+
+
+/*START BOTTOM SELECTION OF GALLERY*/
+#conservationArea
+{
+	width: 112.5px;
+	height: 113px;
+}
+
+#riverCleaning
+{
+	width: 112.5px;
+	height: 113px;
+}
+
+#garbage
+{
+	width: 112.5px;
+	height: 113px;
+}
+
+/*END BOTTOM SELECTION OF GALLERY*/
