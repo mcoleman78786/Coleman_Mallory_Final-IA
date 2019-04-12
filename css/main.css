@@ -190,7 +190,7 @@ p
 }
 
 /*GREEN LINES BETWEEN SELECTIONS - MOBILE*/
-#firstlineMobile, #secondlineMobile, #thirdlineMobile, #forthlineMobile, #fifthlineMobile
+#firstline, #secondline, #thirdline, #forthline, #fifthline
 {
 	max-width: 364px;
 	height: 1px;
@@ -368,8 +368,10 @@ p
 }
 
 
-/*START ABOUT PAGE CONTENT*/
+/*START ABOUT PAGE*/
 
+
+/*ABOUT TOP TEXT*/
 #aboutTraa
 {
   font-size: 17px;
@@ -385,4 +387,37 @@ p
   letter-spacing: .25px;
   margin-top: 12px;
   line-height: 18px;
+}
+
+/*END ABOUT TOP TEXT*/
+
+/*ABOUT TWO IMAGES*/
+
+.boyHelping
+{
+  width: 153.5px;
+  height: 126.5px;
+}
+
+
+.measureFish
+{
+  width: 153.5px;
+  height: 126.5px;  
+}
+/*END TWO IMAGES*/
+
+
+/*START TRAA PEOPLE SELECTION*/
+
+.peopleatTraa img
+{
+  width: 88px;
+}
+
+.chair ul li
+{
+  font-family: 'EB Garamond', serif;
+  color: #727070; 
+  font-size: 18px; 
 }
