@@ -185,11 +185,10 @@ h1, h2, h3
 
 #logoCon
 {
-	display: block;
 	display: flex;
-	flex-direction: row;
-	text-align: center;
 	flex-wrap: wrap;
+	max-width: 375px;
+	margin: 0 auto;
 }
 
 #logoCon h1
@@ -197,7 +196,7 @@ h1, h2, h3
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 50px;
-	display: block;
+	/*display: block;*/
 	font-size: 25px !important;
 }
 
