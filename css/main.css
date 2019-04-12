@@ -61,7 +61,9 @@ h1, h2, h3
 /*ALL PARAGRAPHS*/
 p
 {
-    font-family: 'EB Garamond', serif;
+  letter-spacing: .25px;
+  line-height: 18px;
+  font-family: 'EB Garamond', serif;
 	color: #727070;	
 	font-size: 18px;
 }
@@ -421,3 +423,9 @@ p
   color: #727070; 
   font-size: 18px; 
 }
+
+/*FINISH ABOUT PAGE*/
+
+
+/*START CONTACT PAGE */
+
