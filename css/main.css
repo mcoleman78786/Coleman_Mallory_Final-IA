@@ -429,3 +429,61 @@ p
 
 /*START CONTACT PAGE */
 
+
+/*FIX LOOK OF CONTACT FORM*/
+.contactInfo
+{
+  padding-top: 30px;
+}
+
+#contact
+{
+ margin-top: 40px;
+ line-height: 50px;
+ font-size: 0px;
+ text-align: center;
+}
+
+#name, #email, #phoneNumber
+{
+  width: 303px;
+  height: 44px;
+}
+
+#message
+{
+  width: 303px;
+  height: 122px;
+}
+
+
+#name, #email, #phoneNumber, #message
+{
+  background-color: #E5F2C8;
+  border: 1px solid #304600;
+  color: black;
+}
+
+#contactSubmit
+{
+  font-size: 15px;
+  font-family: 'lustriaregular', Times, serif;
+  width: 101px;
+  height: 34px;
+  background-color: #676767;
+  text-align: center;
+  color: #FFF8DB;
+  border-radius: 10px;
+  border: 2px solid #1F2E01;
+  margin-top: 10px;
+}
+/*END BUTTONS*/
+
+
+/*CONTACT SUBMIT HOVER BUTTONS*/
+#contactSubmit:hover
+{
+  background-color: #022B41;
+  color: #FFFFFF;
+  border: 2px solid black;
+}
