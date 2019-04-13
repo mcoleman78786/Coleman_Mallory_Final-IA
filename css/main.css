@@ -414,6 +414,62 @@ p
   line-height: 18px;
 }
 
+#aboutInfo
+{
+  margin-top: 60px;
+}
+
+/*MOVED VIDEO DOWN */
+
+#aboutVideo video
+{
+  display: flex;
+  padding-top: 60px;
+  margin: 0 auto;
+}
+
+.moreinfoAbout
+{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+/*.moreinfoAbout img
+{
+  margin-top: 70px;
+  margin: 0 auto;
+  width: 324.5px;
+  height: 267.5px;
+}*/
+
+.boyHelping
+{
+  margin-top: 70px;
+  margin: 0 auto;
+  width: 324.5px;
+  height: 267.5px;
+}
+
+.measureFish
+{
+  padding-top: 70px;
+  margin: 0 auto;
+  width: 324.5px;
+  height: 267.5px;
+}
+
+
+.moreinfoAbout p
+{
+  padding: 18px;
+}
+
+.moreinfoAbout
+{
+  margin-top: 40px;
+}
+
 .aboutContainer ul li
 {
   font-family: 'EB Garamond', serif;
@@ -428,18 +484,7 @@ p
 
 /*ABOUT TWO IMAGES*/
 
-.boyHelping
-{
-  width: 153.5px;
-  height: 126.5px;
-}
 
-
-.measureFish
-{
-  width: 153.5px;
-  height: 126.5px;  
-}
 /*END TWO IMAGES*/
 
 
