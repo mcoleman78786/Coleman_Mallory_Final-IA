@@ -435,16 +435,9 @@ p
   padding-top: 20px;
 }
 
-/*.moreinfoAbout img
-{
-  margin-top: 70px;
-  margin: 0 auto;
-  width: 324.5px;
-  height: 267.5px;
-}*/
-
 .boyHelping
 {
+  margin-bottom: 30px;
   margin-top: 70px;
   margin: 0 auto;
   width: 324.5px;
@@ -453,17 +446,23 @@ p
 
 .measureFish
 {
-  padding-top: 70px;
   margin: 0 auto;
   width: 324.5px;
   height: 267.5px;
 }
 
+/*SEPRATE IMAGES AND TEXT */
+
 
 .moreinfoAbout p
 {
+  margin-bottom: 40px;
   padding: 18px;
 }
+
+
+/*Fix sizes of text*/
+
 
 .moreinfoAbout
 {
@@ -490,17 +489,131 @@ p
 
 /*START TRAA PEOPLE SELECTION*/
 
-.peopleatTraa img
+.peopleatTraa
 {
-  width: 88px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
-.chair ul li
+/*MOVED HEADER DOWN FROM LINE*/
+
+
+.peopleatTraa h1
+{
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/*SIZE OF IMAGES CHANGED FOR ALL OF THE HEADSHOTS*/
+.peopleatTraa img
+{
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+/*Fix first row of headshots*/
+#firstheadShots
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#secondheadShots
+{
+  display: flex;
+  flex-wrap: wrap
+  justify-content: space-evenly;
+}
+
+/*CHANGED FONTS OF NAME HEADERS*/
+
+#firstheadShots h2
+{
+  font-size: 16px;
+  text-align: center;
+}
+
+#firstheadShots p
+{
+  font-size: 12px;
+  text-align: center;
+}
+
+#secondheadShots h2
+{
+  font-size: 16px;
+  text-align: center;
+}
+
+#secondheadShots p
+{
+  font-size: 12px;
+  text-align: center;
+}
+
+/*ENDED FONTS*/
+
+
+/*putting images side by side*/
+
+
+/*FIX FONTS OF CHAIRS*/
+#volunteerChairs ul li
 {
   font-family: 'EB Garamond', serif;
   color: #727070; 
   font-size: 18px; 
+  flex-wrap: wrap;
+  line-height: 26px;
 }
+
+#warmWater
+{
+  font-family: 'EB Garamond', serif;
+  color: #727070; 
+  font-size: 18px;
+  line-height: 26px;
+  width: 200px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+/*FIX POITISONS OF CHAIRS */
+
+.chair
+{
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+#chairfirstRow, #chairsecondRow, #thirdchairRow
+{
+  display: flex;
+}
+
+
+
+/*MOVED VOLUNTEERCHAIRS DOWN AND UP*/
+#volunteerChairs
+{
+  padding: 10px;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#habitat, #hatcheryManagement, #publicRelations, #trout
+{
+  line-height: 24px;
+  margin-top: 20px;
+  width: 200px;
+}
+
 
 /*FINISH ABOUT PAGE*/
 
