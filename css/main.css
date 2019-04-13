@@ -1,4 +1,4 @@
-/*Utility Class*/
+
 .hidden
 {
 	display: none;
@@ -39,7 +39,7 @@ body
 }
 
 
-/*ALL LINKS AND LISTS*/
+/*all links and lists*/
 a 
 { 
   color:#848383; 
@@ -49,7 +49,7 @@ a
 }
 
 
-/*ALL HEADER*/
+/*All headers*/
 h1, h2, h3
 {
     font-family: 'EB Garamond', serif;
@@ -58,7 +58,7 @@ h1, h2, h3
 }
 
 
-/*ALL PARAGRAPHS*/
+/*All paragraphs*/
 p
 {
   letter-spacing: .25px;
@@ -67,6 +67,8 @@ p
 	color: #727070;	
 	font-size: 18px;
 }
+
+/*START MAIN NAV*/
 .container {
   margin: 0px auto;
   padding: 0px;
@@ -89,7 +91,7 @@ p
   margin: 0 auto;
 }
 
-/*HAMBURGER MENU BUTTON*/
+/*Hamburger menu*/
 #mainNav button
 {
   background: url(../images/burger.svg) center no-repeat;
@@ -98,9 +100,10 @@ p
   border: 0px;
   transition: all 400ms ease;
   margin-left: auto;
+  margin-right: 10px;
 }
 
-/*HAMBURGER MENU HOVER BUTTON*/
+/*Hamburger menu and hover*/
 #mainNav:hover button
 {
   background: url(../images/burger_hover.svg) center no-repeat;
@@ -110,8 +113,9 @@ p
   transition: all 400ms ease;
   margin-left: auto;
 }
-/*END MENU HOVER BUTTON*/
 
+
+/*Main Nav button*/
 #mainNav button.expanded
 {
   -webkit-transform: rotate(90deg);
@@ -126,7 +130,6 @@ p
   color: white;
   text-align: center;
 }
-
 
 #mainNav li
 {
@@ -157,15 +160,13 @@ p
 	color: #D8AE58;
 }
 
-/*DONE MAIN COLOUR HOVER*/
-
 
 #burgerCon.slideToggle
 {
   display: block;
 }
 
-/*LOGO*/
+/*Start Logo for top*/
 #traaLogo
 {
 	display: block;
@@ -191,7 +192,7 @@ p
 	font-size: 25px !important;
 }
 
-/*GREEN LINES BETWEEN SELECTIONS - MOBILE*/
+/*Green line between selections*/
 #firstline, #secondline, #thirdline, #forthline, #fifthline
 {
 	max-width: 364px;
@@ -202,17 +203,25 @@ p
 }
 
 
-/*TEXT AND MAP DIV*/
+
+/*START HOME PAGE*/
+
+
+/*Text and map*/
 #homeInfo 
 {
 	margin-top: 60px;
 }
 
+
+/*Map text */
 .mapInfo p
 {
   line-height: 22px;
 }
 
+
+/*Map image*/
 #homeInfo img
 {
   display: flex;
@@ -224,7 +233,7 @@ p
   flex-direction: row;
 }
 
-/*MAP FOR MOBILE*/
+/*Map for mobile*/
 #map
 {
 	width: 163px;
@@ -253,18 +262,23 @@ p
   width: 179px;
 }
 
+/*Read more buttons*/
+
 #mreadMore, #freadMore
 {
   color: #5D7132;
   text-decoration: underline;
 }
 
+/*Read more hover over*/
 #mreadMore:hover, #freadMore:hover
 {
   color: #D8AE58;
   text-decoration: underline;
 }
 
+
+/*headers for membershiper and fundraising*/
 #membership h2, #fundraising h2
 {
   display: block;
@@ -278,7 +292,7 @@ p
   font-size: 20px;
 }
 
-/*JOIN US AND DONATE BUTTON*/
+/*Join and donate button*/
 #joinUs, #donate
 {
   font-family: 'EB Garamond', serif;
@@ -294,24 +308,22 @@ p
   margin-top: 30px;
   flex-wrap: wrap;
 }
-/*END BUTTONS*/
 
 
-/*JOINUS AND DONATE HOVER BUTTONS*/
+/*Join us and donate button hovver over*/
 #joinUs:hover, #donate:hover
 {
   background-color: #5D7132;
   color: #FFFFFF;
 }
-/*END HOVER BUTTONS FOR BOTH*/
 
-/*FINISH MEMBERSHIP AND FUNDRAISING SELECTION*/
+/*END MEMBERSHIP AND FUNDRAISING SELECTION*/
+
 
 
 /*START SUPPORTERS LOGOS*/
 
-/*POSITION OF LINE AND SUPPORTERS LOGOS*/
-
+/*Fix sizing and spots of supporters logo*/
 #supportLogos
 {
   margin-top: 50px;
@@ -324,19 +336,12 @@ p
   flex-wrap: wrap;
 }
 
-
-
-/*MOVED EACH LOGO DOWN FROM PREVIOUS TEXT ABOVE*/
-
 #supportMelcher, #supportGuillevin, #supportMuma, #supportTryRecycling, #supportAnglingSports
 {
   padding-top: 35px;
 }
 
-/*MOVED SUPPORTERS DOWN FROM MIDDLE LINE*/
-
-
-/*ADD PROPER SIZING TO SUPPORTER LOGOS*/
+/*Add proper size to logos*/
 #melchers
 {
 	width: 150px;
@@ -367,14 +372,12 @@ p
 	height: 109px;
 }
 
-/*FINISHED WIDTH AND HEIGHT FOR SUPPORTER LOGOSS*/
 
 
 /*START HOME PRODUCT SELECTION*/
 
 
-/*MOVE PRODUCTION SELECITON DOWN FROM FORTHLINE*/
-
+/*Move down and fix spot of product*/
 #products
 {
   padding-top: 50px;
@@ -448,10 +451,13 @@ p
 /*END BOTTOM SELECTION OF GALLERY*/
 
 
+
+
+
 /*START ABOUT PAGE*/
 
 
-/*ABOUT TOP TEXT*/
+/*about top text*/
 #aboutTraa
 {
   font-size: 17px;
@@ -464,8 +470,8 @@ p
   margin-top: 60px;
 }
 
-/*MOVED VIDEO DOWN */
 
+/*Move video down*/
 #aboutVideo video
 {
   display: flex;
@@ -479,7 +485,12 @@ p
   flex-direction: column;
   padding-top: 20px;
 }
+/*DONE VIDEO SELECTION*/
 
+
+/*START */
+
+/*Fix images and position of information selection images*/
 .boyHelping
 {
   margin-bottom: 30px;
@@ -496,8 +507,7 @@ p
   height: 267.5px;
 }
 
-/*SEPRATE IMAGES AND TEXT */
-
+/*Seprate images and text */
 .moreinfoAbout p
 {
   margin-bottom: 40px;
@@ -505,12 +515,13 @@ p
 }
 
 /*Fix sizes of text*/
-
 .moreinfoAbout
 {
   margin-top: 40px;
 }
 
+
+/*Fix container for about TRAA (list)*/
 .aboutContainer ul li
 {
   font-family: 'EB Garamond', serif;
@@ -521,11 +532,8 @@ p
   line-height: 18px;
 }
 
-/*END ABOUT TOP TEXT*/
 
-/*ABOUT TWO IMAGES*/
-/*END TWO IMAGES*/
-/*START TRAA PEOPLE SELECTION*/
+/*START TRAA workers selection*/
 
 .peopleatTraa
 {
@@ -534,9 +542,7 @@ p
   margin: 0 auto;
 }
 
-/*MOVED HEADER DOWN FROM LINE*/
-
-/*moved about people header to center*/
+/*Move position of header to center*/
 #traaPeople h1
 {
   font-size: 30px;
@@ -550,7 +556,7 @@ p
   padding-bottom: 40px;
 }
 
-/*SIZE OF IMAGES CHANGED FOR ALL OF THE HEADSHOTS*/
+/*Fix sizes of headshots*/
 .peopleatTraa img
 {
   margin-top: 30px;
@@ -566,14 +572,14 @@ p
   justify-content: space-evenly;
 }
 
+/*Fix second row of headshots*/
 #secondheadShots
 {
   display: flex;
   justify-content: space-evenly;
 }
 
-/*CHANGED FONTS OF NAME HEADERS*/
-
+/*Change headers font for headshots names*/
 #firstheadShots h2
 {
   font-size: 16px;
@@ -592,15 +598,16 @@ p
   text-align: center;
 }
 
+/*Fix headshots paragraphs*/
 #secondheadShots p
 {
   font-size: 12px;
   text-align: center;
 }
 
-/*ENDED FONTS*/
+
 /*putting images side by side*/
-/*FIX FONTS OF CHAIRS*/
+/*Fix fonts for headshots*/
 #volunteerChairs ul li
 {
   font-family: 'EB Garamond', serif;
@@ -610,6 +617,8 @@ p
   line-height: 26px;
 }
 
+
+/*Bottom */
 #warmWater
 {
   font-family: 'EB Garamond', serif;
@@ -618,16 +627,25 @@ p
   line-height: 26px;
   width: 200px;
   flex-wrap: wrap;
-  margin: 0 auto;
   flex-direction: row;
+  margin: 0 auto;
 }
 
-/*FIX POITISONS OF CHAIRS */
 
+
+/*Fix positions */
 .chair
 {
   margin: 0 auto;
   flex-wrap: wrap;
+}
+
+.chair h4
+{
+  font-size: 22px;
+  padding-bottom: 30px;
+  font-family: 'EB Garamond', serif;
+  color: #986600; 
 }
 
 #chairfirstRow, #chairsecondRow, #thirdchairRow
@@ -676,7 +694,7 @@ p
   font-size: 59px;
 }
 
-#contact input[type=text]
+#contactForm input[type=text]
 {
   box-shadow: inset 0 1px 2px rgba(10,10,10,0.1);
   padding-left: 10px;
@@ -689,7 +707,7 @@ p
 }
 
 
-#contact input[type=message]
+#message
 {
   box-shadow: inset 0 1px 2px rgba(10,10,10,0.1);
   padding-bottom: 80px;
@@ -703,7 +721,7 @@ p
 }
 
 
-#contact input[type=submit]
+#contactForm input[type=submit]
 {
   font-family: 'EB Garamond', serif;
   width: 120px;
@@ -718,15 +736,7 @@ p
   margin-bottom: 40px;
 }
 
-#contact [action="contact.php"] [method="get"]
-{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  size: 82px;
-}
-
-#contact:hover input[type=submit]
+#contactForm:hover input[type=submit]
 {
   background-color: #022B41;
   color: white;
@@ -734,13 +744,10 @@ p
 }
 
 
-/*END BUTTONS*/
+/*END CONTACT PAGE*/
 
 
-/*CONTACT SUBMIT HOVER BUTTONS*/
-
-
-/*FOOTER*/
+/*START FOOTER*/
 
 #logos
 {
@@ -764,8 +771,17 @@ p
 #footerCon
 {
   background-color: #2F2D2D;
+  flex-wrap: wrap;
+  margin-top: 50px;
 }
 
+
+#contactInformation p
+{
+  text-align: center;
+  line-height: 3px;
+  padding-top: 20px;
+}
 
 #footerLogos
 {
@@ -775,13 +791,28 @@ p
   justify-content: space-between;
 }
 
-#socialSize
+
+#footerBottom
+{
+  /*display: flex;*/
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 8px;
+}
+
+/*social media bottom icons*/
+#socialMedia
 {
   width: 40%;
-  flex-direction: row;
   display: flex;
-  margin-top: 10px;
-  margin: 10px;
+  flex-direction: row;
+  padding: 3px;
+  margin-left: auto;
+}
+
+#socialMedia a img
+{
+  padding: 5px;
 }
 
 /*FOOTER LOGO*/
@@ -793,29 +824,32 @@ p
   margin-top: 5px;
 }
 
-/*FOOTER INFOMATION TEXT*/
+/*COPY RIGHT TEXT*/
 #footerCon p
 {
   color: white;
   font-size: 16px;
   margin-top: 7px;
-  text-align: center;
   font-size: 13px;
 }
 
-#footerCon ul
+#footNav ul
 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
+/*Footer Infomation*/
 
-
-/*COPY RIGHT TEXT*/
-#copyright p
+#footerInfo 
 {
   color: white;
   font-size: 14px;
-  text-align: left;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 10px;
 }
+
+/*FINISH FOOTER*/
