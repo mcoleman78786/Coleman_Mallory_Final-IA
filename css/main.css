@@ -888,6 +888,98 @@ p
   background-color: #A1C157;
 }
 
+
+/*Map info and image*/
+.mapInfo p
+{
+  line-height: 22px;
+  padding: 10px;
+  font-size: 19px !important;
+}
+#map
+{
+width: 175px;
+height: 261px;
+}
+
+
+/*ADD PROPER WIDTH AND HEIGHT TO PRODCUTS IMAGES*/
+#hats, #tShirts, #keyChains
+{
+  width: 132px;
+  height: 194px;
+}
+
+/*fix poistion and size of gallery images*/
+#eggs, #babies, #redFish, #conservatonArea, #riverCleaning, #garbage
+{
+  width: 132.5px;
+  height: 133px;
+}
+
+
+
+/*END HOME PAGE*/
+
+
+/*START ABOUT */
+
+/*Video size*/
+#aboutVideo video
+{
+  width: 350px;
+}
+
+/*Fix sizes of headshots*/
+.peopleatTraa img
+{
+  width: 130px;
+  height: 130px;
+}
+
+
+/*Fix size of header for volunteer names*/
+.chair h4
+{
+  font-size: 26px;
+}
+
+/*END ABOUT*/
+
+/*START CONTACT*/
+
+/*Change font size of contact information paragraph*/
+
+.contactInfo p
+{
+  font-size: 22px;
+  line-height: 24px;
+}
+
+/*Contact form texts*/
+#contactForm input[type=text]
+{
+  font-size: 17px;
+  width: 333px;
+  height: 64px;
+}
+
+/*Message contact area*/
+#message
+{
+  font-size: 17px;
+  width: 333px;
+  height: 162px;
+  margin-top: 6px;
+}
+
+/*Submit button*/
+#contactForm input[type=submit]
+{
+  width: 140px;
+  font-size: 20px;
+}
+
 /*FOOTER*/
 
 
@@ -940,33 +1032,6 @@ p
   padding-top: 10px;
 }
 
-/*ADD PROPER WIDTH AND HEIGHT TO PRODCUTS IMAGES*/
-#hats, #tShirts, #keyChains
-{
-  width: 132px;
-  height: 194px;
-}
-
-/*Map info and image*/
-.mapInfo p
-{
-  line-height: 22px;
-  padding: 10px;
-  font-size: 19px !important;
-}
-#map
-{
-width: 175px;
-height: 261px;
-}
-
-/*fix poistion and size of gallery images*/
-#eggs, #babies, #redFish, #conservatonArea, #riverCleaning, #garbage
-{
-  width: 132.5px;
-  height: 133px;
-}
-
 
 
 
@@ -1006,7 +1071,113 @@ height: 261px;
   background-color: #A1C157;
 }
 
+/*Map info and image*/
+.mapInfo p
+{
+  line-height: 22px;
+  padding: 10px;
+  font-size: 20px !important;
+}
+#map
+{
+width: 195px;
+height: 281px;
+}
 
+/*headers for membershiper and fundraising*/
+#membership h2, #fundraising h2
+{
+  display: block;
+  width: 193px;
+  background-color: #5D7132;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: #FFEBBE;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.homeCon p
+{
+  margin: 0 auto;
+  width: 180px;
+}
+
+#joinUs, #donate
+{
+  width: 140px;
+}
+
+/*Add proper size to logos*/
+#melchers
+{
+  width: 180px;
+  height: 75px;
+}
+
+#guillevin
+{
+  width: 230px;
+  height: 62px;
+}
+
+#muma 
+{
+  width: 186px;
+  height: 61px;
+}
+
+#tryRecycling
+{
+  width: 186px;
+  height: 78px;
+}
+
+#anglingSports
+{
+  width: 117px;
+  height: 129px;
+}
+
+/*ADD PROPER WIDTH AND HEIGHT TO PRODCUTS IMAGES*/
+#hats, #tShirts, #keyChains
+{
+  width: 155px;
+  height: 224px;
+}
+
+#products h1
+
+{
+  font-size: 35px;
+}
+
+.Products h2
+{
+  font-size: 26px;
+}
+
+
+.Products p
+{
+  font-size: 19px;
+  margin: 0 auto;
+  width: 155px;
+}
+
+/*fix poistion and size of gallery images*/
+#eggs, #babies, #redFish, #conservatonArea, #riverCleaning, #garbage
+{
+  width: 152.5px;
+  height: 153px;
+}
+
+
+.galleryImages
+{
+  padding-top: 40px;
+}
 
 
 /*FOOTER*/
