@@ -269,7 +269,7 @@ p
 #membership h2, #fundraising h2
 {
   display: block;
-  width: 179px;
+  width: 173px;
   background-color: #5D7132;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -379,6 +379,7 @@ p
 #products
 {
   padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 
@@ -396,7 +397,7 @@ p
 {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 
@@ -418,8 +419,8 @@ p
 /*ADD PROPER WIDTH AND HEIGHT TO PRODCUTS IMAGES*/
 #hats, #tShirts, #keyChains
 {
-	width: 120px;
-	height: 173px;
+	width: 110px;
+	height: 170px;
 }
 
 /*END PRODCUTS HOME SELECTION*/
@@ -427,6 +428,19 @@ p
 
 /*START GALLERY FOR HOME PAGE*/
 
+/*fix position of gallery images*/
+#gallery
+{
+  padding-top: 50px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+
+
+/*fix poistion of gallery images*/
 #eggs, #babies, #redFish, #conservatonArea, #riverCleaning, #garbage
 {
 	width: 112.5px;
