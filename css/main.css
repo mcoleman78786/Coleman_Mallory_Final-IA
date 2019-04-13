@@ -203,14 +203,30 @@ p
 
 
 /*TEXT AND MAP DIV*/
-#homeInfo
+#homeInfo 
 {
-	flex-direction: row;
 	margin-top: 60px;
 }
 
+.mapInfo p
+{
+  line-height: 22px;
+}
+
+#homeInfo img
+{
+  display: flex;
+}
+
+.mapInfo
+{
+  display: flex;
+  flex-direction: row;
+  align-content: justify;
+}
+
 /*MAP FOR MOBILE*/
-#mapMobile
+#map
 {
 	width: 163px;
 	height: 251px;
@@ -218,10 +234,42 @@ p
 
 
 /*START MEMEBERSHIP AND FUNDRAISING SELECTION*/
+
+#homeContainer
+{
+  padding-top: 50px;
+}
+
+/*MAKE MEMBERSHIP AND FUNDRAISING LAYOUT SIDE BY SIDE*/
+.homeCon
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.homeCon p
+{
+  line-height: 22px;
+  padding-top: 10px;
+  width: 179px;
+}
+
+#mreadMore, #freadMore
+{
+  color: #5D7132;
+  text-decoration: underline;
+}
+
+#readMore:hover 
+{
+  color: #D8AE58;
+  text-decoration: underline;
+}
+
 #membership h2, #fundraising h2
 {
   display: block;
-  width: 149px;
+  width: 179px;
   background-color: #5D7132;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -244,6 +292,8 @@ p
   color: #FFF8DB;
   border-radius: 10px;
   border: 2px solid #1F2E01;
+  margin-top: 30px;
+  flex-wrap: wrap;
 }
 /*END BUTTONS*/
 
@@ -318,89 +368,6 @@ p
 	height: 113px;
 }
 /*END BOTTOM SELECTION OF GALLERY*/
-
-
-/*FOOTER*/
-
-#logos
-{
-  flex-direction: row;
-}
-
-#Home, #About, #Project, #Newsletters, #Links, #Contact
-{
-	color: #B1FF00;
-	font-family: 'EB Garamond', serif;
-	font-size: 16px;
-}
-
-#Home:hover, #About:hover, #Project:hover, #Newsletters:hover, #Links:hover, #Contact:hover
-{
-	color: #6C7DFF;
-	font-family: 'EB Garamond', serif;
-	font-size: 16px;
-}
-
-#footerCon
-{
-	background-color: #2F2D2D;
-}
-
-
-#footerLogos
-{
-  display: flex;
-  flex-direction: row;
-  margin: 10px;
-  justify-content: space-between;
-}
-
-#socialSize
-{
-  width: 40%;
-  flex-direction: row;
-  display: flex;
-  margin-top: 10px;
-  margin: 10px;
-}
-
-/*FOOTER LOGO*/
-
-#footertraaLogo
-{
-	width: 72px;
-	height: 72px;
-  margin-top: 5px;
-}
-
-/*FOOTER INFOMATION TEXT*/
-#footerCon p
-{
-  color: white;
-  font-size: 16px;
-  margin-top: 7px;
-  text-align: center;
-  font-size: 13px;
-  font-weight: 0%;
-}
-
-#footerCon ul
-{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  font-weight: 0%;
-}
-
-
-
-/*COPY RIGHT TEXT*/
-#copyright p
-{
-  color: white;
-  font-size: 14px;
-  text-align: left;
-}
 
 
 /*START ABOUT PAGE*/
@@ -525,7 +492,6 @@ p
 #secondheadShots
 {
   display: flex;
-  flex-wrap: wrap
   justify-content: space-evenly;
 }
 
@@ -691,3 +657,85 @@ p
 
 /*CONTACT SUBMIT HOVER BUTTONS*/
 
+
+/*FOOTER*/
+
+#logos
+{
+  flex-direction: row;
+}
+
+#Home, #About, #Project, #Newsletters, #Links, #Contact
+{
+  color: #B1FF00;
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+}
+
+#Home:hover, #About:hover, #Project:hover, #Newsletters:hover, #Links:hover, #Contact:hover
+{
+  color: #6C7DFF;
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+}
+
+#footerCon
+{
+  background-color: #2F2D2D;
+}
+
+
+#footerLogos
+{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+#socialSize
+{
+  width: 40%;
+  flex-direction: row;
+  display: flex;
+  margin-top: 10px;
+  margin: 10px;
+}
+
+/*FOOTER LOGO*/
+
+#footertraaLogo
+{
+  width: 72px;
+  height: 72px;
+  margin-top: 5px;
+}
+
+/*FOOTER INFOMATION TEXT*/
+#footerCon p
+{
+  color: white;
+  font-size: 16px;
+  margin-top: 7px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 0%;
+}
+
+#footerCon ul
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-weight: 0%;
+}
+
+
+
+/*COPY RIGHT TEXT*/
+#copyright p
+{
+  color: white;
+  font-size: 14px;
+  text-align: left;
+}
