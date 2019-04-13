@@ -222,7 +222,6 @@ p
 {
   display: flex;
   flex-direction: row;
-  align-content: justify;
 }
 
 /*MAP FOR MOBILE*/
@@ -499,16 +498,13 @@ p
 
 /*SEPRATE IMAGES AND TEXT */
 
-
 .moreinfoAbout p
 {
   margin-bottom: 40px;
   padding: 18px;
 }
 
-
 /*Fix sizes of text*/
-
 
 .moreinfoAbout
 {
@@ -528,11 +524,7 @@ p
 /*END ABOUT TOP TEXT*/
 
 /*ABOUT TWO IMAGES*/
-
-
 /*END TWO IMAGES*/
-
-
 /*START TRAA PEOPLE SELECTION*/
 
 .peopleatTraa
@@ -544,13 +536,19 @@ p
 
 /*MOVED HEADER DOWN FROM LINE*/
 
-
-.peopleatTraa h1
+/*moved about people header to center*/
+#traaPeople h1
 {
   font-size: 30px;
   text-align: center;
 }
 
+
+#traaPeople
+{
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
 
 /*SIZE OF IMAGES CHANGED FOR ALL OF THE HEADSHOTS*/
 .peopleatTraa img
@@ -601,11 +599,7 @@ p
 }
 
 /*ENDED FONTS*/
-
-
 /*putting images side by side*/
-
-
 /*FIX FONTS OF CHAIRS*/
 #volunteerChairs ul li
 {
@@ -672,6 +666,7 @@ p
 
 
 /*FIX LOOK OF CONTACT FORM*/
+
 
 #form
 {
@@ -798,7 +793,6 @@ p
   margin-top: 7px;
   text-align: center;
   font-size: 13px;
-  font-weight: 0%;
 }
 
 #footerCon ul
@@ -806,7 +800,6 @@ p
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  font-weight: 0%;
 }
 
 
