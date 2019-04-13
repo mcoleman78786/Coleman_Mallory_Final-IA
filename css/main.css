@@ -1179,6 +1179,82 @@ height: 281px;
   padding-top: 40px;
 }
 
+/*END HOME PAGE*/
+
+
+/*START ABOUT PAGE*/
+
+#aboutTraa 
+{
+    font-size: 22px;
+    letter-spacing: .30px;
+    line-height: 22px;
+}
+
+/*Fix container for about TRAA (list)*/
+.aboutContainer ul li
+{
+  font-size: 20px;
+  letter-spacing: .30px;
+  line-height: 24px;
+}
+
+#aboutVideo video 
+{
+    width: 360px;
+}
+
+.boyHelping, .measureFish
+{
+  width: 344.5px;
+  height: 287.5px;
+}
+
+/*Fix sizes of text*/
+.moreinfoAbout p
+{
+  font-size: 20px;
+}
+
+/*Fix sizes of headshots*/
+.peopleatTraa img
+{
+  width: 145px;
+  height: 145px;
+}
+
+ #firstheadShots h2, #secondheadShots h2 
+{
+    font-size: 20px;
+    text-align: center;
+}
+
+#firstheadShots p, #secondheadShots p 
+{
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/*Fix size of header for volunteer names*/
+.chair h4
+{
+  font-size: 28px;
+}
+
+/*END ABOUT*/
+
+
+/*START CONTACT PAGE*/
+
+#logoCon h1 
+{
+    font-size: 40px !important;
+    margin-top: 65px;
+    text-align: center;
+}
+
+/*END CONTACT PAGE*/
 
 /*FOOTER*/
 
