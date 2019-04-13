@@ -260,7 +260,7 @@ p
   text-decoration: underline;
 }
 
-#readMore:hover 
+#mreadMore:hover, #freadMore:hover
 {
   color: #D8AE58;
   text-decoration: underline;
@@ -310,6 +310,34 @@ p
 
 
 /*START SUPPORTERS LOGOS*/
+
+/*POSITION OF LINE AND SUPPORTERS LOGOS*/
+
+#supportLogos
+{
+  margin-top: 50px;
+}
+
+.suportersLogos
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+
+/*MOVED EACH LOGO DOWN FROM PREVIOUS TEXT ABOVE*/
+
+#supportMelcher, #supportGuillevin, #supportMuma, #supportTryRecycling, #supportAnglingSports
+{
+  padding-top: 35px;
+}
+
+/*MOVED SUPPORTERS DOWN FROM MIDDLE LINE*/
+
+
+/*ADD PROPER SIZING TO SUPPORTER LOGOS*/
 #melchers
 {
 	width: 150px;
@@ -340,24 +368,61 @@ p
 	height: 109px;
 }
 
-#hats
+/*FINISHED WIDTH AND HEIGHT FOR SUPPORTER LOGOSS*/
+
+
+/*START HOME PRODUCT SELECTION*/
+
+
+/*MOVE PRODUCTION SELECITON DOWN FROM FORTHLINE*/
+
+#products
+{
+  padding-top: 50px;
+}
+
+
+/*Move header for products to center and move product selection down, and edit header size*/
+#products h1
+
+{
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 26px;
+}
+
+/*position three products with info and header*/
+.Products
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+/*edit the font width for info*/
+.Products p
+{
+  line-height: 21px;
+  width: 120px;
+}
+
+
+/*changed position of product headers, (hats, tshirts, and keychains*/
+.Products h2
+{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/*ADD PROPER WIDTH AND HEIGHT TO PRODCUTS IMAGES*/
+#hats, #tShirts, #keyChains
 {
 	width: 120px;
 	height: 173px;
 }
 
-#tShirts
-{
-	width: 120px;
-	height: 173px;
-}
-
-#keyChains
-{
-	width: 120px;
-	height: 173px;
-}
-/*END SUPPORTERS LOGOS*/
+/*END PRODCUTS HOME SELECTION*/
 
 
 /*START GALLERY FOR HOME PAGE*/
