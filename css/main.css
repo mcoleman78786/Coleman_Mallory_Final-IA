@@ -69,6 +69,7 @@ p
 }
 
 /*START MAIN NAV*/
+
 .container {
   margin: 0px auto;
   padding: 0px;
@@ -218,6 +219,8 @@ p
 .mapInfo p
 {
   line-height: 22px;
+  padding: 10px;
+  font-size: 15px !important;
 }
 
 
@@ -442,20 +445,21 @@ p
 
 
 
-/*fix poistion of gallery images*/
+/*fix poistion and size of gallery images*/
 #eggs, #babies, #redFish, #conservatonArea, #riverCleaning, #garbage
 {
 	width: 112.5px;
 	height: 113px;
 }
-/*END BOTTOM SELECTION OF GALLERY*/
+
+
+/*END HOME PAGE*/
 
 
 
 
 
 /*START ABOUT PAGE*/
-
 
 /*about top text*/
 #aboutTraa
@@ -469,7 +473,6 @@ p
 {
   margin-top: 60px;
 }
-
 
 /*Move video down*/
 #aboutVideo video
@@ -486,9 +489,6 @@ p
   padding-top: 20px;
 }
 /*DONE VIDEO SELECTION*/
-
-
-/*START */
 
 /*Fix images and position of information selection images*/
 .boyHelping
@@ -532,7 +532,6 @@ p
   line-height: 18px;
 }
 
-
 /*START TRAA workers selection*/
 
 .peopleatTraa
@@ -548,7 +547,6 @@ p
   font-size: 30px;
   text-align: center;
 }
-
 
 #traaPeople
 {
@@ -631,8 +629,6 @@ p
   margin: 0 auto;
 }
 
-
-
 /*Fix positions */
 .chair
 {
@@ -653,8 +649,6 @@ p
   display: flex;
 }
 
-
-
 /*MOVED VOLUNTEERCHAIRS DOWN AND UP*/
 #volunteerChairs
 {
@@ -671,8 +665,9 @@ p
   width: 200px;
 }
 
-
 /*FINISH ABOUT PAGE*/
+
+
 
 
 /*START CONTACT PAGE */
@@ -682,10 +677,7 @@ p
   margin-top: 50px;
 }
 
-
-/*FIX LOOK OF CONTACT FORM*/
-
-
+/*Look of form*/
 #form
 {
   margin-top: 60px;
@@ -694,6 +686,7 @@ p
   font-size: 59px;
 }
 
+/*Contact form texts*/
 #contactForm input[type=text]
 {
   box-shadow: inset 0 1px 2px rgba(10,10,10,0.1);
@@ -706,7 +699,7 @@ p
   border: 1px solid #304600;
 }
 
-
+/*Message contact area*/
 #message
 {
   box-shadow: inset 0 1px 2px rgba(10,10,10,0.1);
@@ -720,7 +713,7 @@ p
   border: 1px solid #304600;
 }
 
-
+/*Submit button*/
 #contactForm input[type=submit]
 {
   font-family: 'EB Garamond', serif;
@@ -743,7 +736,6 @@ p
   border: 2px solid black;
 }
 
-
 /*END CONTACT PAGE*/
 
 
@@ -754,6 +746,7 @@ p
   flex-direction: row;
 }
 
+/*Footer Nav font and colours*/
 #Home, #About, #Project, #Newsletters, #Links, #Contact
 {
   color: #B1FF00;
@@ -761,6 +754,7 @@ p
   font-size: 16px;
 }
 
+/*Footer Nav hovers*/
 #Home:hover, #About:hover, #Project:hover, #Newsletters:hover, #Links:hover, #Contact:hover
 {
   color: #6C7DFF;
@@ -768,6 +762,8 @@ p
   font-size: 16px;
 }
 
+
+/*Footer Background*/
 #footerCon
 {
   background-color: #2F2D2D;
@@ -775,7 +771,7 @@ p
   margin-top: 50px;
 }
 
-
+/*Footer contact information*/
 #contactInformation p
 {
   text-align: center;
@@ -783,6 +779,7 @@ p
   padding-top: 20px;
 }
 
+/*Footer logo*/
 #footerLogos
 {
   display: flex;
@@ -794,7 +791,6 @@ p
 
 #footerBottom
 {
-  /*display: flex;*/
   flex-wrap: wrap;
   flex-direction: row;
   padding-top: 8px;
@@ -810,21 +806,21 @@ p
   margin-left: auto;
 }
 
+/*adding space between icons*/
 #socialMedia a img
 {
   padding: 5px;
 }
 
-/*FOOTER LOGO*/
-
+/*footer logo*/
 #footertraaLogo
 {
-  width: 72px;
-  height: 72px;
+  width: 92px;
+  height: 92px;
   margin-top: 5px;
 }
 
-/*COPY RIGHT TEXT*/
+/*Copy right paragraph*/
 #footerCon p
 {
   color: white;
@@ -842,7 +838,6 @@ p
 }
 
 /*Footer Infomation*/
-
 #footerInfo 
 {
   color: white;
@@ -852,4 +847,211 @@ p
   padding-top: 10px;
 }
 
+
 /*FINISH FOOTER*/
+
+
+@media screen and (min-width: 430px) {
+
+
+  /*MAIN NAV*/
+
+
+/*Logo and Header*/
+#logoCon
+{
+  display: flex;
+  max-width: 3500px;
+  margin-top: 20px;
+}
+
+#logoCon h1
+{
+  font-size: 27px !important;
+  margin-top: 65px;
+}
+
+#traaLogo
+{
+  display: flex;
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+  /*Lines*/
+#firstline, #secondline, #thirdline, #forthline, #fifthline
+{
+  max-width: 464px;
+  height: 1px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #A1C157;
+}
+
+/*FOOTER*/
+
+
+#footertraaLogo
+{
+  width: 115px;
+  height: 115px;
+  margin-top: 5px;
+}
+
+/*Change font size of footer nav to bigger*/
+  #Home, #About, #Project, #Newsletters, #Links, #Contact
+{
+  color: #B1FF00;
+  font-family: 'EB Garamond', serif;
+  font-size: 19px;
+}
+
+#Home:hover, #About:hover, #Project:hover, #Newsletters:hover, #Links:hover, #Contact:hover
+{
+  color: #6C7DFF;
+  font-family: 'EB Garamond', serif;
+  font-size: 19px;
+}
+
+/*Change font size of contact information paragraph*/
+#contactInformation p
+{
+  font-size: 16px;
+  text-align: center;
+  line-height: 7px;
+  padding-top: 20px;
+}
+
+#footerInfo 
+{
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  padding-top: 10px;
+}
+
+/*Change spot and sizes of social media icons*/
+#socialMedia
+{
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+/*ADD PROPER WIDTH AND HEIGHT TO PRODCUTS IMAGES*/
+#hats, #tShirts, #keyChains
+{
+  width: 132px;
+  height: 194px;
+}
+
+/*Map info and image*/
+.mapInfo p
+{
+  line-height: 22px;
+  padding: 10px;
+  font-size: 19px !important;
+}
+#map
+{
+width: 175px;
+height: 261px;
+}
+
+/*fix poistion and size of gallery images*/
+#eggs, #babies, #redFish, #conservatonArea, #riverCleaning, #garbage
+{
+  width: 132.5px;
+  height: 133px;
+}
+
+
+
+
+@media screen and (min-width: 500px) {
+
+
+/*MAIN NAV*/
+
+
+/*Logo and Header*/
+#logoCon
+{
+  display: flex;
+  max-width: 3500px;
+  margin-top: 20px;
+}
+
+#logoCon h1
+{
+  font-size: 32px !important;
+  margin-top: 65px;
+}
+
+#traaLogo
+{
+  display: flex;
+  max-width: 170px;
+}
+
+/*Lines*/
+#firstline, #secondline, #thirdline, #forthline, #fifthline
+{
+  max-width: 564px;
+  height: 1px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #A1C157;
+}
+
+
+
+
+/*FOOTER*/
+
+/*Change font size of footer nav to bigger*/
+  #Home, #About, #Project, #Newsletters, #Links, #Contact
+{
+  color: #B1FF00;
+  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+}
+
+#Home:hover, #About:hover, #Project:hover, #Newsletters:hover, #Links:hover, #Contact:hover
+{
+  color: #6C7DFF;
+  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+}
+
+/*Change font size of contact information paragraph*/
+#contactInformation p
+{
+  font-size: 18px;
+  text-align: center;
+  line-height: 7px;
+  padding-top: 20px;
+}
+
+#footerInfo 
+{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 24px;
+  padding-top: 10px;
+}
+
+/*Change spot and sizes of social media icons*/
+#socialMedia
+{
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+
+}
