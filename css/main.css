@@ -234,7 +234,7 @@ p
 /*JOIN US AND DONATE BUTTON*/
 #joinUs, #donate
 {
-  font-family: 'lustriaregular', Times, serif;
+  font-family: 'EB Garamond', serif;
   display: block;
   width: 110px;
   background-color: #676767;
@@ -322,9 +322,9 @@ p
 
 /*FOOTER*/
 
-.socialSize
+#logos
 {
-	width: 10%;
+  flex-direction: row;
 }
 
 #Home, #About, #Project, #Newsletters, #Links, #Contact
@@ -346,12 +346,31 @@ p
 	background-color: #2F2D2D;
 }
 
+
+#footerLogos
+{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+#socialSize
+{
+  width: 40%;
+  flex-direction: row;
+  display: flex;
+  margin-top: 10px;
+  margin: 10px;
+}
+
 /*FOOTER LOGO*/
 
 #footertraaLogo
 {
 	width: 72px;
 	height: 72px;
+  margin-top: 5px;
 }
 
 /*FOOTER INFOMATION TEXT*/
@@ -359,14 +378,28 @@ p
 {
   color: white;
   font-size: 16px;
+  margin-top: 7px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 0%;
+}
+
+#footerCon ul
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-weight: 0%;
 }
 
 
+
 /*COPY RIGHT TEXT*/
-#copyright
+#copyright p
 {
   color: white;
   font-size: 14px;
+  text-align: left;
 }
 
 
@@ -429,61 +462,74 @@ p
 
 /*START CONTACT PAGE */
 
+.contactInfo p
+{
+  margin-top: 50px;
+}
+
 
 /*FIX LOOK OF CONTACT FORM*/
-.contactInfo
+
+#form
 {
-  padding-top: 30px;
+  margin-top: 60px;
+  text-align: center;
+  display: block;
 }
 
-#contact
+#contact input[type=text]
 {
- margin-top: 40px;
- line-height: 50px;
- font-size: 0px;
- text-align: center;
-}
-
-#name, #email, #phoneNumber
-{
+  box-shadow: inset 0 1px 2px rgba(10,10,10,0.1);
+  padding-left: 10px;
+  font-size: 17px;
+  margin: 0 auto;
   width: 303px;
   height: 44px;
-}
-
-#message
-{
-  width: 303px;
-  height: 122px;
-}
-
-
-#name, #email, #phoneNumber, #message
-{
   background-color: #E5F2C8;
   border: 1px solid #304600;
-  color: black;
 }
 
-#contactSubmit
+
+#contact input[type=message]
 {
-  font-size: 15px;
-  font-family: 'lustriaregular', Times, serif;
-  width: 101px;
-  height: 34px;
+  box-shadow: inset 0 1px 2px rgba(10,10,10,0.1);
+  padding-bottom: 70px;
+  padding-left: 10px;
+  font-size: 17px;
+  margin: 0 auto;
+  width: 303px;
+  height: 122px;
+  background-color: #E5F2C8;
+  border: 1px solid #304600;
+}
+
+
+#contact input[type=submit]
+{
+  font-family: 'EB Garamond', serif;
+  width: 110px;
+  font-size: 18px;
   background-color: #676767;
-  text-align: center;
+  padding-top: 13px;
+  padding-bottom: 13px;
   color: #FFF8DB;
   border-radius: 10px;
   border: 2px solid #1F2E01;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
+
+
+#contact:hover input[type=submit]
+{
+  background-color: #022B41;
+  color: white;
+  border: 2px solid black;
+}
+
+
 /*END BUTTONS*/
 
 
 /*CONTACT SUBMIT HOVER BUTTONS*/
-#contactSubmit:hover
-{
-  background-color: #022B41;
-  color: #FFFFFF;
-  border: 2px solid black;
-}
+
