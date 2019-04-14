@@ -2000,12 +2000,6 @@ font-size: 40px;
 /*Done Home Tablet*/
 
 
-/*Tablet footer*/
-#footNav ul
-{
-  font-size: 26px;
-}
-
 #contactForm input[type=text]
 {
   width: 620px;
@@ -2026,8 +2020,303 @@ font-size: 40px;
   width: 620px;
   height: 172px;
 }
+
+/*Tablet footer*/
+#footNav ul
+{
+  font-size: 26px;
 }
 
+/*FINISH TABLET LAYOUT*/
+
+}
+
+
+@media screen and (min-width: 800px) {
+
+  #contactForm input[type=text]
+{
+  width: 525px;
+  height: 84px;
+}
+
+#message 
+{
+    font-size: 17px;
+    width: 525px;
+    height: 192px;
+    margin-left: auto;
+    display: flex;
+}
+
+#form 
+{
+   line-height: 106px;
+}
+
+.contactInfo p 
+{
+    font-size: 30px;
+    width: 700px;
+    line-height: 33px;
+    padding-top: 50px;
+}
+
+}
+
+
+@media screen and (min-width: 900px) {
+
+/*add background and change main header*/
+
+.container
+{
+  padding: 0px;
+}
+
+#mainHeader 
+{
+    background-image: url(file:///Users/mallorycoleman/Desktop/Coleman_Mallory_Final-IA/images/fog_filtered_900.jpg);
+    width: 900px;
+    height: 382.32px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+#mainNav 
+{
+    width: 900px;
+    height: 100px;
+    margin-top: 80px;
+}
+
+
+#burgerMenu 
+{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 38px;
+}
+
+#tabletFL, #secondline, #thirdline, #forthline, #fifthline
+{
+  display: block !important;
+  max-width: 890px;
+}
+
+
+#homeInfo h1 
+{
+    font-size: 70px;
+}
+
+
+.aboutContainer ul li 
+{
+    margin: 0 auto;
+}
+
+#aboutTraa p
+{
+  font-size: 20px;
+}
+
+#aboutVideo video
+{
+  width: 700px;
+}
+
+.boyHelping, .measureFish 
+{
+    width: 490.5px;
+    height: 403.5px;
+}
+
+.moreinfoAbout p 
+{
+    font-size: 22px;
+    line-height: 26px;
+    width: 570px;
+}
+
+ #Home, #About, #Project, #Newsletters, #Links, #Contact
+{
+  justify-content: space-evenly;
+}
+
+#Home:hover, #About:hover, #Project:hover, #Newsletters:hover, #Links:hover, #Contact:hover
+{
+  justify-content: space-evenly;
+}
+
+.peopleatTraa img
+{
+  margin-top: 30px;
+  width: 250px;
+  height: 250px;
+}
+
+#aboutTraa 
+{
+  font-size: 30px;
+  width: 800px;
+  margin: 0 auto;
+  line-height: 33px;
+}
+
+.aboutContainer ul li 
+{
+    font-size: 25px;
+    letter-spacing: .30px;
+    line-height: 35px;
+    width: 800px;
+}
+
+.chair h4 
+{
+    font-size: 50px;
+    text-align: center;
+}
+
+#volunteerChairs ul li 
+{
+    font-size: 26px;
+}
+
+.chair h2 
+{
+    font-size: 32px;
+}
+
+#warmWater h2 
+{
+    font-size: 32px;
+}
+
+#warmWater ul li
+{
+  font-size: 26px;
+}
+
+#contactForm input[type=text]
+{
+  width: 525px;
+  height: 84px;
+}
+
+#message 
+{
+    font-size: 17px;
+    width: 525px;
+    height: 192px;
+    margin-left: auto;
+    display: flex;
+}
+
+#form 
+{
+   line-height: 106px;
+}
+
+.contactInfo p 
+{
+    font-size: 30px;
+    width: 700px;
+    line-height: 33px;
+    padding-top: 50px;
+}
+}
+
+
+@media screen and (min-width: 1000px) {
+
+  #mainHeader 
+{
+    background-image: url(file:///Users/mallorycoleman/Desktop/Coleman_Mallory_Final-IA/images/fog_filtered_1000.jpg);
+    width: 1000px;
+    background-repeat: no-repeat;
+    height: 424.8px;
+}
+
+#mainNav 
+{
+    width: 1000px;
+    height: 100px;
+    margin-top: 123px;
+}
+
+#burgerMenu 
+{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 38px;
+}
+
+
+#map 
+{
+    width: 400px;
+    height: 600px;
+}
+
+.mapInfo p 
+{
+    width: 383px;
+    font-size: 30px !important;
+    line-height: 33px;
+}
+
+.homeCon p
+ {
+    font-size: 26px;
+    line-height: 29px;
+    width: 314.47px;
+}
+
+#Hats, #TShirts, #KeyChains
+{
+  margin: 0 auto;
+  display: block;
+  width: 317px;
+  height: 520px;
+}
+
+#products h1 
+{
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 46px;
+}
+
+.Products p 
+{
+    font-size: 26px;
+    margin: 0 auto;
+    width: 327px;
+}
+
+#eggs, #babies, #redFish, #conservatonArea, #riverCleaning, #garbage
+{
+  width: 287px;
+  height: 287px;
+}
+
+#gallery
+{
+  margin-bottom: 50px;
+}
+
+#tabletFL, #secondline, #thirdline, #forthline, #fifthline
+{
+  display: block !important;
+  max-width: 1000px !important;
+}
+
+
+
+}
+
+}
 }
 }
 
