@@ -2445,6 +2445,30 @@ font-size: 40px;
     padding-top: 110px;
   }
 
+  #Hats, #TShirts, #KeyChains
+  {
+    width: 350px;
+    height: 614px;
+  }
+
+  #products h1
+  {
+    font-size: 60px;
+  }
+
+  #products p
+  {
+    font-size: 32px;
+    width: 350px;
+    line-height: 34px;
+  }
+
+
+  .Products h2
+  {
+    font-size: 40px;
+  }
+
 
   }
 
