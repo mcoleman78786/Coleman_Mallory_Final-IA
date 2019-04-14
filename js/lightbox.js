@@ -1,7 +1,7 @@
 
 const 	projectBox 	= document.querySelectorAll('.eventHold'),
 		img = document.querySelector('.lightimage'),
-		lightbox = document.querySelector('.lightbox'),
+		lightbox = document.querySelector('.lightboxImages'),
 		closelightBlock = document.querySelector('.closeLightBlock');
 
 projectBox.forEach(box => {
@@ -12,7 +12,7 @@ projectBox.forEach(box => {
 
 		img.src = `images/${newImage}.jpg`;
 
-		lightbox.classList.add('show-lightBox');
+		lightbox.classList.add('show-lightboxImage');
 	});
 
 });
@@ -20,7 +20,7 @@ projectBox.forEach(box => {
 
 	function hideLightbox() {
 
-		lightbox.classList.remove('show-lightBox');
+		lightbox.classList.remove('show-lightboxImage');
 
 	}
 

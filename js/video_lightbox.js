@@ -1,18 +1,18 @@
 
-const 	projectBox 	= document.querySelectorAll('.eventHold'),
-		img = document.querySelector('.lightimage'),
-		lightbox = document.querySelector('.lightbox'),
+const 	projectBox 	= document.querySelectorAll('.eventhold'),
+		img = document.querySelector('.lightvideo'),
+		lightbox = document.querySelector('.Lightbox'),
 		closelightBlock = document.querySelector('.closeLightBlock');
 
 projectBox.forEach(box => {
 	box.addEventListener("click", function(e) {
 
 		let i = this.className.split(" ")[0],
-		newImage = this.className.split(" ")[1];
+		newVideo = this.className.split(" ")[1];
 
-		img.src = `images/${newImage}.jpg`;
+		video.src = `video/${newVideo}.jpg`;
 
-		lightbox.classList.add('show-lightBox');
+		lightbox.classList.add('show-lightBoxVideo');
 	});
 
 });
@@ -20,7 +20,7 @@ projectBox.forEach(box => {
 
 	function hideLightbox() {
 
-		lightbox.classList.remove('show-lightBox');
+		lightbox.classList.remove('show-lightBoxVideo');
 
 	}
 
