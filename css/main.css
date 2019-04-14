@@ -1383,6 +1383,7 @@ height: 281px;
   width: 350px;
   height: 140px !important;
 }
+}
 
 
 @media screen and (min-width: 600px) {
@@ -2312,11 +2313,21 @@ font-size: 40px;
     {
       display: block !important;
       position: absolute;
-      color: black !important;
+      color: black;
       right: 12px;
       cursor: pointer;
-      font-size: 2px;
+      font-size: 2em;
     } 
+
+    .closeLightBlock
+    {
+      display: block !important;
+      position: absolute;
+      color: black;
+      right: 12px;
+      cursor: pointer;
+      font-size: 2em;
+    }
 
 .galleryTop, #gallerybottom
 {

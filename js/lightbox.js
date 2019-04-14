@@ -2,7 +2,7 @@
 const 	projectBox 	= document.querySelectorAll('.eventHold'),
 		img = document.querySelector('.lightimage'),
 		lightbox = document.querySelector('.lightbox'),
-		closelightBlock = document.querySelector('.lightbox-close');
+		closelightBlock = document.querySelector('.closeLightBlock');
 
 projectBox.forEach(box => {
 	box.addEventListener("click", function(e) {
