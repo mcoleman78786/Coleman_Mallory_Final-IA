@@ -2402,6 +2402,50 @@ font-size: 40px;
     padding-top: 30px;
   }
 
+
+  #melchers
+  {
+    width: 352.5px;
+    height: 124.5px;
+  }
+
+  #guillevin
+  {
+    width: 375px;
+    height: 91px;
+  }
+
+  #muma
+  {
+    width: 353.5px;
+    height: 96px;
+  }
+
+  #tryRecycling
+  {
+    width: 344.5px;
+    height: 129px;
+  }
+
+  #anglingSports
+  {
+    width: 229px;
+    height: 259px;
+  }
+
+  #supportLogos p
+  {
+    font-size: 34px;
+    width: 800px;
+    line-height: 36px;
+  }
+
+  #supportMelcher, #supportGuillevin, #supportMuma, #supportTryRecycling, #supportAnglingSports
+  {
+    padding-top: 110px;
+  }
+
+
   }
 
 }
