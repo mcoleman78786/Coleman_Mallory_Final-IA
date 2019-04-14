@@ -175,7 +175,7 @@ p
 }
 
 
-#TraaLogo, #homeInfo h1, #tabletFL , #Hats, #TShirtS, #KeyChains
+#TraaLogo, #homeInfo h1, #tabletFL , #Hats, #TShirts, #KeyChains
 {
   display: none;
 }
@@ -1470,6 +1470,13 @@ height: 281px;
 
 @media screen and (min-width: 725px) {
 
+
+  #hats, #tShirts, #keyChains
+  {
+    width: 225px;
+    height: 304px;
+  }
+
 #contactForm input[type=text]
 {
   width: 600px;
@@ -2033,6 +2040,13 @@ font-size: 40px;
 
 @media screen and (min-width: 800px) {
 
+
+#hats, #tShirts, #keyChains
+{
+  width: 287px;
+  height: 460px;
+}
+
   #contactForm input[type=text]
 {
   width: 525px;
@@ -2101,6 +2115,19 @@ font-size: 40px;
 {
   display: block !important;
   max-width: 890px;
+}
+
+#hats, #tShirts, #keyChains
+{
+  width: 427px;
+  height: 560px;
+  margin: 0 auto;
+}
+
+.Products 
+{
+  padding: 40px;
+  display: flex;
 }
 
 
