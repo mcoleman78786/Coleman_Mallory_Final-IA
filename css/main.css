@@ -2379,6 +2379,29 @@ font-size: 40px;
     max-width: 1100px !important;
   }
 
+  #membership h2, #fundraising h2
+  {
+    width: 489.47px;
+    height: 134px;
+    font-size: 50px;
+    padding-top: 40px;
+  }
+
+  .homeCon p
+  {
+    width: 489.47px;
+    font-size: 33px;
+    line-height: 36px;
+  }
+
+  #joinUs, #donate
+  {
+    width: 307px;
+    height: 111.15px;
+    font-size: 40px;
+    padding-top: 30px;
+  }
+
   }
 
 }
