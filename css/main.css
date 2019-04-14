@@ -679,10 +679,13 @@ p
 /*Look of form*/
 #form
 {
-  margin-top: 60px;
+  margin-top: 60px !important;
   text-align: center;
-  display: block;
-  font-size: 59px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 10px;
 }
 
 /*Contact form texts*/
@@ -724,8 +727,8 @@ p
   color: #FFF8DB;
   border-radius: 10px;
   border: 2px solid #1F2E01;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin-top: 20px !important;
+  margin: 0 auto;
 }
 
 #contactForm:hover input[type=submit]
@@ -958,19 +961,14 @@ height: 261px;
 /*Contact form texts*/
 #contactForm input[type=text]
 {
-  font-size: 17px;
   width: 333px;
   height: 64px;
-  line-height: 84px;
 }
 
 /*Message contact area*/
 #message
 {
-  font-size: 17px;
   width: 333px;
-  height: 162px;
-  margin-top: 18px;
 }
 
 /*Submit button*/
@@ -979,12 +977,6 @@ height: 261px;
   width: 140px;
   font-size: 20px;
 }
-
-#contactForm
-{
-  line-height: 84px;
-}
-
 /*FOOTER*/
 
 
@@ -1214,7 +1206,6 @@ height: 281px;
 {
   font-size: 20px;
   letter-spacing: .30px;
-  line-height: 24px;
 }
 
 #aboutVideo video 
@@ -1313,7 +1304,7 @@ height: 281px;
 
 #contactForm input[type=text]
 {
-  width: 430px;
+  width: 350px;
   height: 74px;
 }
 
@@ -1321,8 +1312,7 @@ height: 281px;
 #message
 {
   font-size: 17px;
-  width: 430px;
-  height: 172px;
+  width: 350px;
 }
 
 
@@ -1432,40 +1422,6 @@ height: 281px;
 
 }
 
-@media screen and (min-width: 605px) {
-
-#contactForm input[type=text]
-{
-  width: 500px;
-  height: 74px;
-}
-
-/*Message contact area*/
-#message
-{
-  font-size: 17px;
-  width: 500px;
-  height: 172px;
-}
-
-}
-
-
-@media screen and (min-width: 675px) {
-
-#contactForm input[type=text]
-{
-  width: 550px;
-  height: 74px;
-}
-
-/*Message contact area*/
-#message
-{
-  font-size: 17px;
-  width: 550px;
-  height: 172px;
-}
 
 
 @media screen and (min-width: 725px) {
@@ -1477,19 +1433,6 @@ height: 281px;
     height: 304px;
   }
 
-#contactForm input[type=text]
-{
-  width: 600px;
-  height: 74px;
-}
-
-/*Message contact area*/
-#message
-{
-  font-size: 17px;
-  width: 600px;
-  height: 172px;
-}
 
 }
 
@@ -2004,27 +1947,6 @@ font-size: 40px;
 /*Done Home Tablet*/
 
 
-#contactForm input[type=text]
-{
-  width: 620px;
-  height: 74px;
-}
-
-.contactInfo p {
-    font-size: 30px;
-    width: 600px;
-    line-height: 33px;
-    padding-top: 50px;
-}
-
-/*Message contact area*/
-#message
-{
-  font-size: 17px;
-  width: 620px;
-  height: 172px;
-}
-
 /*Tablet footer*/
 #footNav ul
 {
@@ -2050,26 +1972,6 @@ font-size: 40px;
     display: block !important;
     max-width: 800px !important;
   }
-
-  #contactForm input[type=text]
-{
-  width: 525px;
-  height: 84px;
-}
-
-#message 
-{
-    font-size: 17px;
-    width: 525px;
-    height: 192px;
-    margin-left: auto;
-    display: flex;
-}
-
-#form 
-{
-   line-height: 106px;
-}
 
 .contactInfo p 
 {
@@ -2228,25 +2130,6 @@ font-size: 40px;
   font-size: 26px;
 }
 
-#contactForm input[type=text]
-{
-  width: 525px;
-  height: 84px;
-}
-
-#message 
-{
-    font-size: 17px;
-    width: 525px;
-    height: 192px;
-    margin-left: auto;
-    display: flex;
-}
-
-#form 
-{
-   line-height: 106px;
-}
 
 .contactInfo p 
 {
@@ -2341,7 +2224,28 @@ font-size: 40px;
   display: block !important;
   max-width: 1000px !important;
 }
+
+
 }
+
+
+
+@media screen and (min-width: 1100px) {
+
+  #form
+  {
+    padding: 20px;
+  }
+
+  #message
+  {
+
+  }
+
+
+}
+
+
 
 @media screen and (min-width: 1200px) {
 
@@ -2483,6 +2387,7 @@ font-size: 40px;
     height: 353px;
   }
 
+
   #footertraaLogo
   {
     width: 207px;
@@ -2505,6 +2410,7 @@ font-size: 40px;
     font-size: 30px;
     line-height: 36px;
   }
+
 
   #footerInfo
   {
