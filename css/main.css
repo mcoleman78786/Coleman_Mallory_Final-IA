@@ -275,7 +275,7 @@ p
 
 /*Read more buttons*/
 
-#mreadMore, #freadMore
+#mreadMore, #freadMore, #mainreadMore
 {
   color: #5D7132;
   text-decoration: underline;
@@ -1687,7 +1687,8 @@ font-size: 40px;
   padding-top: 10px;
 }
 
-#footertraaLogo {
+#footertraaLogo 
+{
 
     width: 145px;
     height: 145px;
@@ -1998,6 +1999,15 @@ font-size: 40px;
   height: 229px;
 }
 
+/*Done Home Tablet*/
+
+
+/*Tablet footer*/
+#footNav ul
+{
+  font-size: 26px;
+}
+
 #contactForm input[type=text]
 {
   width: 620px;
@@ -2011,7 +2021,8 @@ font-size: 40px;
   width: 620px;
   height: 172px;
 }
+}
 
-
+}
 }
 
