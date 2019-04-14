@@ -1,4 +1,3 @@
-
 const 	projectBox 	= document.querySelectorAll('.eventHold'),
 		img = document.querySelector('.lightimage'),
 		lightbox = document.querySelector('.lightboxImages'),

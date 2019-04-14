@@ -2336,7 +2336,7 @@ font-size: 40px;
 
 
     /*Light Box Video*/
-  .lightboxVideo
+  /*.lightboxVideo
   {
     position: fixed;
     top: 0;
@@ -2348,20 +2348,20 @@ font-size: 40px;
     display: none;
     padding-top: 170px;
     }
-
+*//*
     .lightvideo
     {
       margin: 0 auto;
       display: block;
       width: 365px;
       height: 353px;
-    }
-
+    }*/
+/*
     .show-lightBoxVideo
     {
       display: block;
-    }
-
+    }*/
+/*
     .closeLightBlock
     {
       color: #5D7132;
@@ -2370,7 +2370,7 @@ font-size: 40px;
       font-size: 60px;
       top: 0%;
       padding-top: 40px;
-    }
+    }*/
 
 .galleryTop, #gallerybottom
 {
