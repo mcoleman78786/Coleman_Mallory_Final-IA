@@ -68,37 +68,11 @@ p
 }
 
 
- .lightbox
+ .lightbox, .lightimage, .show-lightBox, .lightbox-close
 {
-  position: fixed;
-  top: 0;
-  left: 0px;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  background: rgba(255,255,255,0.7);
   display: none;
 }
 
-.lightimage
-{
-  margin-left: 300px;
-  margin-top: 90px;
-}
-
-.show-lightBox
-{
-  display: block;
-}
-
-.lightbox-close
-{
-  position: absolute;
-  color: black;
-  right: 12px;
-  cursor: pointer;
-  font-size: 2em;
-}
 
 /*START MAIN NAV*/
 
@@ -513,13 +487,26 @@ p
 /*START GALLERY FOR HOME PAGE*/
 
 /*fix position of gallery images*/
-#gallery
+#gallery 
 {
   padding-top: 50px;
   padding-bottom: 40px;
+  justify-content: space-evenly;
+}
+
+.galleryTop, .galleryBottom
+{
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+  justify-content: space-evenly;
   margin: 0 auto;
-  flex-wrap: wrap;
-  text-align: center;
+}
+
+.galleryImages
+{
+  margin: 0 auto;
+
 }
 
 
@@ -992,6 +979,11 @@ height: 261px;
 {
   width: 132.5px;
   height: 133px;
+}
+
+.galleryTop, .galleryBottom
+{
+  padding: 10px;
 }
 
 
@@ -2291,6 +2283,11 @@ font-size: 40px;
   height: 287px;
 }
 
+.galleryTop, #gallerybottom
+{
+  padding: 15px;
+}
+
 #gallery
 {
   margin-bottom: 50px;
@@ -2424,6 +2421,7 @@ font-size: 40px;
     height: 614px;
   }
 
+
   #products h1
   {
     font-size: 60px;
@@ -2442,10 +2440,51 @@ font-size: 40px;
     font-size: 40px;
   }
 
-  #eggs, #babies, #redFish, #conservatonArea, #riverCleaning, #garbage
+  #eggs, #babies, #redFish, #conservatonArea, #riverCleaning, #garbage, #eventImg
   {
     width: 365px;
     height: 353px;
+  }
+
+
+   .lightbox
+{
+  position: fixed;
+  top: 0;
+  left: 0px;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,0.7);
+  display: none;
+}
+
+.lightimage
+{
+  margin: 0 auto;
+  display: block;
+  width: 490px;
+  height: 480px;
+}
+
+.show-lightBox
+{
+  display: block;
+}
+
+.lightbox-close
+{
+  display: block;
+  position: absolute;
+  color: black;
+  right: 12px;
+  cursor: pointer;
+  font-size: 2em;
+}
+
+  .galleryTop, #gallerybottom
+  {
+    padding: 7px;
   }
 
 
