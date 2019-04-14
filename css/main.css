@@ -2376,7 +2376,7 @@ font-size: 40px;
   #tabletFL, #secondline, #thridline, #forthline, #fifthline
   {
     display: block !important;
-    max-width: 1100px !important;
+    max-width: 1150px !important;
   }
 
   #membership h2, #fundraising h2
@@ -2435,14 +2435,22 @@ font-size: 40px;
 
   #supportLogos p
   {
-    font-size: 34px;
+    font-size: 28px;
     width: 800px;
     line-height: 36px;
   }
 
+
+
   #supportMelcher, #supportGuillevin, #supportMuma, #supportTryRecycling, #supportAnglingSports
   {
     padding-top: 110px;
+  }
+
+  #products, #supportLogos, .galleryImages, #homeContainer, #homeInfo
+  {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   #Hats, #TShirts, #KeyChains
@@ -2467,6 +2475,12 @@ font-size: 40px;
   .Products h2
   {
     font-size: 40px;
+  }
+
+  #eggs, #babies, #redFish, #conservatonArea, #riverCleaning, #garbage
+  {
+    width: 365px;
+    height: 353px;
   }
 
 
