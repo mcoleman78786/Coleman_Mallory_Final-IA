@@ -2374,6 +2374,37 @@ font-size: 40px;
   }
 
 
+  /*ABOUT PAGE*/
+
+  .peopleatTraa h2
+  {
+    font-size: 28px !important;
+  }
+
+  .peopleatTraa p
+  {
+    font-size: 24px !important;
+  }
+
+  .chair h4
+  {
+    margin-bottom: 80px;
+  }
+
+  #chairsecondRow
+  {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+
+  .chair h2
+  {
+    font-size: 34px;
+    line-height: 36px;
+  }
+
+
   #footertraaLogo
   {
     width: 207px;
