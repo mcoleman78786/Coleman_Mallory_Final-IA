@@ -2298,18 +2298,18 @@ font-size: 40px;
     left: 0px;
     justify-content: center;
     width: 100%;
+    height: 100%;
     background: rgba(255,255,255,0.7);
     display: none;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 170px;
     }
 
     .lightimage
     {
       margin: 0 auto;
       display: block;
-      width: 490px;
-      height: 480px;
+      width: 365px;
+      height: 353px;
     }
 
     .show-lightBox
@@ -2317,22 +2317,19 @@ font-size: 40px;
       display: block;
     }
 
-    .lightbox-close
-    {
-      display: block !important;
-      position: absolute;
-      color: black;
-      right: 12px;
-      cursor: pointer;
-      font-size: 2em;
-    } 
-
     .closeLightBlock
     {
-      color: black;
-      margin-right: auto;
-      cursor: pointer;
-      font-size: 5em;
+      color: #5D7132;
+      position: absolute;
+      left: 80%;
+      font-size: 60px;
+      top: 0%;
+      padding-top: 40px;
+    }
+
+    .closeLightBlock:hover
+    {
+      color: #3E3C3C;
     }
 
 .galleryTop, #gallerybottom
