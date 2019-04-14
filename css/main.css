@@ -2339,6 +2339,31 @@ font-size: 40px;
 }
 }
 
+@media screen and (min-width: 1200px) {
+
+
+  #TraaLogo
+  {
+    padding-top: 70px;
+    width: 327px;
+    height: 324px;
+  }
+
+  #mainHeader 
+  {
+    background-image: url(file:///Users/mallorycoleman/Desktop/Coleman_Mallory_Final-IA/images/fog_filtered_desktop.jpg);
+    width: 1200px;
+    background-repeat: no-repeat;
+    height: 509.77px;
+  }
+
+  #mainNav
+  {
+    margin-top: 86px;
+  }
+
+  }
+
 }
 }
 }
