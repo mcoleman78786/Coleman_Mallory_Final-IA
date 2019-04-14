@@ -68,10 +68,16 @@ p
 }
 
 
- .lightbox, .lightimage, .show-lightBox, .lightbox-close
+ .lightbox
 {
   display: none;
 }
+
+.lightboxVideo
+{
+  display: none;
+}
+
 
 
 /*START MAIN NAV*/
@@ -2294,6 +2300,8 @@ font-size: 40px;
     width: 100%;
     background: rgba(255,255,255,0.7);
     display: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
     }
 
     .lightimage
@@ -2321,12 +2329,10 @@ font-size: 40px;
 
     .closeLightBlock
     {
-      display: block !important;
-      position: absolute;
       color: black;
-      right: 12px;
+      margin-right: auto;
       cursor: pointer;
-      font-size: 2em;
+      font-size: 5em;
     }
 
 .galleryTop, #gallerybottom
@@ -2344,6 +2350,7 @@ font-size: 40px;
   display: block !important;
   max-width: 1000px !important;
 }
+
 
 
 }
