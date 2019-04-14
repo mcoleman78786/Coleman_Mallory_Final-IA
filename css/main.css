@@ -175,6 +175,12 @@ p
 	margin: 0 auto;
 }
 
+
+#TraaLogo, #homeInfo h1
+{
+  display: none;
+}
+
 #logoCon
 {
 	display: flex;
@@ -374,8 +380,6 @@ p
 	width: 97px;
 	height: 109px;
 }
-
-
 
 /*START HOME PRODUCT SELECTION*/
 
@@ -962,6 +966,7 @@ height: 261px;
   font-size: 17px;
   width: 333px;
   height: 64px;
+  line-height: 84px;
 }
 
 /*Message contact area*/
@@ -970,7 +975,7 @@ height: 261px;
   font-size: 17px;
   width: 333px;
   height: 162px;
-  margin-top: 6px;
+  margin-top: 18px;
 }
 
 /*Submit button*/
@@ -978,6 +983,11 @@ height: 261px;
 {
   width: 140px;
   font-size: 20px;
+}
+
+#contactForm
+{
+  line-height: 84px;
 }
 
 /*FOOTER*/
@@ -1032,6 +1042,7 @@ height: 261px;
   padding-top: 10px;
 }
 
+}
 
 
 
@@ -1045,13 +1056,13 @@ height: 261px;
 #logoCon
 {
   display: flex;
-  max-width: 3500px;
+  max-width: 100%;
   margin-top: 20px;
 }
 
 #logoCon h1
 {
-  font-size: 32px !important;
+  font-size: 30px !important;
   margin-top: 65px;
 }
 
@@ -1108,6 +1119,18 @@ height: 281px;
 {
   width: 140px;
 }
+
+/*Map info selection*/
+  .mapInfo p
+  {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  #supportLogos p
+  {
+    width: 480px;
+  }
 
 /*Add proper size to logos*/
 #melchers
@@ -1244,18 +1267,6 @@ height: 281px;
 
 /*END ABOUT*/
 
-
-/*START CONTACT PAGE*/
-
-#logoCon h1 
-{
-    font-size: 40px !important;
-    margin-top: 65px;
-    text-align: center;
-}
-
-/*END CONTACT PAGE*/
-
 /*FOOTER*/
 
 /*Change font size of footer nav to bigger*/
@@ -1300,5 +1311,541 @@ height: 281px;
   padding-top: 10px;
 }
 
+}
+
+
+@media screen and (min-width: 508px) {
+
+#contactForm input[type=text]
+{
+  width: 430px;
+  height: 74px;
+}
+
+/*Message contact area*/
+#message
+{
+  font-size: 17px;
+  width: 430px;
+  height: 172px;
+}
+
+
+@media screen and (min-width: 600px) {
+
+
+/*START TOP*/
+  #traaLogo
+  {
+    max-width: 180px;
+  }
+
+  #logoCon h1
+{
+  font-size: 40px !important;
+  margin-top: 65px;
+}
+
+
+/*START HOME PAGE*/
+
+
+/*Map info selection*/
+  .mapInfo p
+  {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  /*supporters logos position*/
+  #supportLogos p
+  {
+    width: 480px;
+  }
+
+
+  #supportMelcher, #supportGuillevin, #supportMuma,#supportTryRecycling, #supportAnglingSports
+  {
+    margin: 0 auto;
+  }
+
+  /*products selection*/
+/*ADD PROPER WIDTH AND HEIGHT TO PRODCUTS IMAGES*/
+#hats, #tShirts, #keyChains
+{
+  width: 185px;
+  height: 254px;
+}
+
+#products h1
+
+{
+  font-size: 40px;
+}
+
+.Products h2
+{
+  font-size: 30px;
+}
+
+
+.Products p
+{
+  font-size: 22px;
+  width: 185px;
+  line-height: 23px;
+}
+
+
+#products 
+{
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+/*fix poistion and size of gallery images*/
+#eggs, #babies, #redFish, #conservatonArea, #riverCleaning, #garbage
+{
+  width: 182.5px;
+  height: 183px;
+}
+
+.galleryImages
+{
+  padding-top: 60px;
+}
+
+/*START ABOUT PAGE*/
+
+.moreinfoAbout p {
+    font-size: 22px;
+    line-height: 22px;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+
+/*START CONTACT PAGE*/
+
+.contactInfo p
+{
+  font-size: 23px;
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
 
 }
+
+@media screen and (min-width: 605px) {
+
+#contactForm input[type=text]
+{
+  width: 500px;
+  height: 74px;
+}
+
+/*Message contact area*/
+#message
+{
+  font-size: 17px;
+  width: 500px;
+  height: 172px;
+}
+
+}
+
+
+@media screen and (min-width: 675px) {
+
+#contactForm input[type=text]
+{
+  width: 550px;
+  height: 74px;
+}
+
+/*Message contact area*/
+#message
+{
+  font-size: 17px;
+  width: 550px;
+  height: 172px;
+}
+
+
+@media screen and (min-width: 725px) {
+
+#contactForm input[type=text]
+{
+  width: 600px;
+  height: 74px;
+}
+
+/*Message contact area*/
+#message
+{
+  font-size: 17px;
+  width: 600px;
+  height: 172px;
+}
+
+}
+
+
+@media screen and (min-width: 736px) {
+
+  #traaLogo 
+  {
+
+    max-width: 210px;
+  }
+
+  #logoCon h1 
+  {
+
+    font-size: 50px !important;
+    margin-top: 65px;
+  }
+
+  #firstline, #secondline, #thirdline, #forthline, #fifthline 
+  {
+    max-width: 780px;
+  }
+
+  #map
+  {
+    width: 290px;
+    height: 390px;
+  }
+
+  /*headers for membershiper and fundraising*/
+#membership h2, #fundraising h2
+{
+  display: block;
+  width: 270px;
+  height: 60px;
+  background-color: #5D7132;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: #FFEBBE;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.homeCon p
+{
+  margin: 0 auto;
+  width: 270px;
+}
+
+#joinUs, #donate
+{
+  width: 150px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+
+  #supportLogos p
+  {
+    width: 480px;
+  }
+
+
+/*ADD PROPER WIDTH AND HEIGHT TO PRODCUTS IMAGES*/
+#hats, #tShirts, #keyChains
+{
+  width: 220px;
+  height: 310px;
+}
+
+#products h1
+
+{
+  font-size: 40px;
+}
+
+.Products h2
+{
+  font-size: 32px;
+}
+
+
+.Products p
+{
+  font-size: 22px;
+  margin: 0 auto;
+  width: 220px;
+}
+
+/*fix poistion and size of gallery images*/
+#eggs, #babies, #redFish, #conservatonArea, #riverCleaning, #garbage
+{
+  width: 202.5px;
+  height: 202px;
+}
+
+
+.galleryImages
+{
+  padding-top: 60px;
+}
+
+/*END HOME PAGE*/
+
+
+/*START ABOUT PAGE*/
+
+#aboutTraa 
+{
+    font-size: 22px;
+    letter-spacing: .30px;
+    line-height: 22px;
+}
+
+.boyHelping, .measureFish
+{
+  width: 444.5px;
+  height: 387.5px;
+}
+
+/*Fix sizes of text*/
+.moreinfoAbout p
+{
+  font-size: 22px;
+}
+
+/*Fix sizes of headshots*/
+.peopleatTraa img
+{
+  width: 175px;
+  height: 175px;
+}
+
+#traaPeople h1 
+{
+font-size: 40px;
+}
+
+ #firstheadShots h2, #secondheadShots h2 
+{
+    font-size: 26px;
+    text-align: center;
+}
+
+#firstheadShots p, #secondheadShots p 
+{
+    font-size: 22px;
+    text-align: center;
+}
+
+
+/*Fix size of header for volunteer names*/
+.chair h4
+{
+  font-size: 40px;
+  text-align: center;
+}
+
+.chair h2
+{
+  font-size: 28px;
+}
+
+#warmWater, #volunteerChairs ul li
+{
+
+  font-size: 22px; 
+}
+
+#warmWater h2
+{
+  font-size: 28px;
+}
+
+#volunteerChairs 
+{
+
+    display: block;
+    flex-direction: row;
+}
+
+#chairfirstRow, #chairsecondRow, #thirdchairRow 
+{
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+/*END ABOUT*/
+
+/*FOOTER*/
+#FooterCon
+{
+  padding-top: 10px;
+}
+
+#footertraaLogo {
+
+    width: 145px;
+    height: 145px;
+}
+  #Home, #About, #Project, #Newsletters, #Links, #Contact
+{
+  color: #B1FF00;
+  font-family: 'EB Garamond', serif;
+  font-size: 28px;
+}
+
+#Home:hover, #About:hover, #Project:hover, #Newsletters:hover, #Links:hover, #Contact:hover
+{
+  color: #6C7DFF;
+  font-family: 'EB Garamond', serif;
+  font-size: 28px;
+}
+
+/*Change font size of contact information paragraph*/
+#contactInformation p
+{
+  font-size: 22px;
+  text-align: center;
+  line-height: 7px;
+  padding-top: 20px;
+}
+
+#footerInfo 
+{
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  line-height: 24px;
+  padding-top: 10px;
+}
+
+/*Change spot and sizes of social media icons*/
+#socialMedia
+{
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  margin-bottom: -30px;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+
+/*Top for Tablet*/
+
+#button, #logoCon h1, #traaLogo, #firstline, #secondline, #thirdline, #forthline, #fifthline
+{
+  display: none !important;
+}
+
+#mainHeader
+{
+  background-image: url(file:///Users/mallorycoleman/Desktop/Coleman_Mallory_Final-IA/images/fog_filtered_tablet.png);
+  width: 768px;
+  height: 326.25px;
+}
+
+
+
+  #burgerCon
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #logoCon
+  {
+    order: -1;
+  }
+
+  #mainNav
+  {
+    margin-left: auto;
+  }
+
+  #mainNav 
+  {
+    display: flex;
+    flex-direction: column;
+    background: rgba(230,230,230,0.8);
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 768px;
+    height: 65px;
+  }
+
+  #burgerMenu
+  {
+    text-align: center;
+    font-size: 29px;
+  }
+
+  #mainNav li
+  {
+    border-bottom: none;
+    display: inline;
+    margin-left: 20px;
+  }
+
+  #mainNav li a 
+  {
+    display: inline;
+    color: #3F5A02;
+  }
+
+  #mainNav li a:hover
+{
+  color: #003041;
+  padding-bottom: 5px;
+}
+
+  #mainNav ul li:first-child
+  {
+    border-top: none;
+  }
+
+
+
+
+#TraaLogo
+{
+  width: 204px;
+  height: 202px;
+  padding-top: 40px;
+  display: block;
+}
+
+#homeInfo h1
+{
+  display: block;
+}
+
+
+
+#contactForm input[type=text]
+{
+  width: 620px;
+  height: 74px;
+}
+
+/*Message contact area*/
+#message
+{
+  font-size: 17px;
+  width: 620px;
+  height: 172px;
+}
+
+
+}
+
