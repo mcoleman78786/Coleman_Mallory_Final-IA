@@ -1763,8 +1763,6 @@ font-size: 40px;
 }
 
 
-
-
   /*fix main nav text and space betwee*/
   #burgerCon
   {
@@ -1857,8 +1855,8 @@ font-size: 40px;
 /*Line for mobile and desktop*/
 #tabletFL
 {
-  display: block;
-  max-width: 724px;
+  display: block !important;
+  max-width: 724px !important;
   height: 1px;
   margin: 0 auto;
   margin-top: 50px;
@@ -2047,6 +2045,12 @@ font-size: 40px;
   height: 460px;
 }
 
+#tabletFL, #secondline, #thridline, #forthline, #fifthline
+  {
+    display: block !important;
+    max-width: 800px !important;
+  }
+
   #contactForm input[type=text]
 {
   width: 525px;
@@ -2114,7 +2118,7 @@ font-size: 40px;
 #tabletFL, #secondline, #thirdline, #forthline, #fifthline
 {
   display: block !important;
-  max-width: 890px;
+  max-width: 890px !important;
 }
 
 #hats, #tShirts, #keyChains
@@ -2367,6 +2371,12 @@ font-size: 40px;
   #mainNav li a 
   {
     font-size: 50px;
+  }
+
+  #tabletFL, #secondline, #thridline, #forthline, #fifthline
+  {
+    display: block !important;
+    max-width: 1100px !important;
   }
 
   }
