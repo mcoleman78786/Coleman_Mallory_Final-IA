@@ -176,7 +176,7 @@ p
 }
 
 
-#TraaLogo, #homeInfo h1
+#TraaLogo, #homeInfo h1, #tabletFL , #Hats, #TShirtS, #KeyChains
 {
   display: none;
 }
@@ -218,6 +218,9 @@ p
 #homeInfo 
 {
 	margin-top: 60px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 40px;
 }
 
 
@@ -225,7 +228,6 @@ p
 .mapInfo p
 {
   line-height: 22px;
-  padding: 10px;
   font-size: 15px !important;
 }
 
@@ -379,7 +381,7 @@ p
 {
 	width: 97px;
 	height: 109px;
-}
+} 
 
 /*START HOME PRODUCT SELECTION*/
 
@@ -448,7 +450,6 @@ p
 }
 
 
-
 /*fix poistion and size of gallery images*/
 #eggs, #babies, #redFish, #conservatonArea, #riverCleaning, #garbage
 {
@@ -458,9 +459,6 @@ p
 
 
 /*END HOME PAGE*/
-
-
-
 
 
 /*START ABOUT PAGE*/
@@ -1742,20 +1740,27 @@ font-size: 40px;
 
 /*Top for Tablet*/
 
-#button, #logoCon h1, #traaLogo, #firstline, #secondline, #thirdline, #forthline, #fifthline
+/*hidden mobile things*/
+#button, #logoCon h1, #traaLogo, #firstline, #fifthline, #hats, #tShirts, #keyChains
 {
   display: none !important;
 }
 
+
+/*add background and change main header*/
 #mainHeader
 {
   background-image: url(file:///Users/mallorycoleman/Desktop/Coleman_Mallory_Final-IA/images/fog_filtered_tablet.png);
   width: 768px;
   height: 326.25px;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 
 
+
+  /*fix main nav text and space betwee*/
   #burgerCon
   {
     display: flex;
@@ -1763,16 +1768,22 @@ font-size: 40px;
     justify-content: space-between;
   }
 
+
+
+  /*fix logo*/
   #logoCon
   {
     order: -1;
   }
 
+  /*move main nav to center*/
   #mainNav
   {
     margin-left: auto;
   }
 
+  
+/*Main nav background*/
   #mainNav 
   {
     display: flex;
@@ -1782,8 +1793,10 @@ font-size: 40px;
     margin-top: 60px;
     width: 768px;
     height: 65px;
+
   }
 
+  /*Main nav text*/
   #burgerMenu
   {
     text-align: center;
@@ -1814,9 +1827,7 @@ font-size: 40px;
     border-top: none;
   }
 
-
-
-
+/*fix logo*/
 #TraaLogo
 {
   width: 204px;
@@ -1825,12 +1836,167 @@ font-size: 40px;
   display: block;
 }
 
+
+/*START HOME PAGE TABLET*/
+/*fix header for map*/
 #homeInfo h1
 {
   display: block;
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 50px;
 }
 
 
+/*Line for mobile and desktop*/
+#tabletFL
+{
+  display: block;
+  max-width: 724px;
+  height: 1px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #A1C157;
+  margin-bottom: 100px;
+}
+
+
+/*change font size for map infomation*/
+.mapInfo p
+{
+  width: 383px;
+  font-size: 24px;
+}
+
+.mapInfo
+{
+  padding: 0px;
+}
+
+
+/*change map image size*/
+#map
+{
+  width: 287px;
+  height: 496px;
+  display: flex;
+  margin: 0 auto;
+}
+
+ #secondline, #thirdline, #forthline, #fifthline
+ {
+  margin-bottom: 80px;
+  margin-top: 120px;
+ }
+
+/*Start membership and fundraising selection*/
+
+#homeContainer
+{
+  margin-top: 50px;
+}
+
+/*headers for membershiper and fundraising*/
+#membership h2, #fundraising h2
+{
+  display: block;
+  width: 314.47px;
+  height: 86px;
+  background-color: #5D7132;
+  padding-top: 22px;
+  text-align: center;
+  color: #FFEBBE;
+  border-radius: 5px;
+  font-size: 35px;
+}
+
+.homeCon p
+{
+  font-size: 21px;
+  line-height: 29px;
+  width: 314.47px;
+}
+
+#joinUs, #donate
+{
+  width: 188px;
+  height: 68.15px;
+  font-size: 30px;
+}
+
+/*Start supporter logos selection*/
+
+
+#supportLogos
+{
+  margin-right: 100px;
+}
+
+#melchers
+{
+  width: 293.5px;
+  height: 103.5px;
+}
+
+#guillevin
+{
+  width: 294px;
+  height: 71px;
+}
+
+#muma
+{
+  width: 288.5px;
+  height: 78px;
+}
+
+#tryRecycling
+{
+  width: 294.5px;
+  height: 110px;
+}
+
+
+#anglingSports
+{
+  width: 188px;
+  height: 213px;
+}
+
+
+#supportLogos
+{
+  padding-top: 50px;
+}
+
+
+#supportLogos p 
+{
+  font-size: 20px;
+  line-height: 22px;
+}
+/*done supporter logos*/
+
+
+/*start products*/
+
+#Hats, #TShirts, #KeyChains
+{
+  display: block;
+  width: 247px;
+  height: 450px;
+}
+
+/*Done Products*/
+
+/*Start gallery selection*/
+
+#eggs, #babies, #redFish, #conservatonArea, #riverCleaning, #garbage
+{
+  width: 237px;
+  height: 229px;
+}
 
 #contactForm input[type=text]
 {
