@@ -670,8 +670,6 @@ p
 /*FINISH ABOUT PAGE*/
 
 
-
-
 /*START CONTACT PAGE */
 
 .contactInfo p
@@ -2012,6 +2010,13 @@ font-size: 40px;
 {
   width: 620px;
   height: 74px;
+}
+
+.contactInfo p {
+    font-size: 30px;
+    width: 600px;
+    line-height: 33px;
+    padding-top: 50px;
 }
 
 /*Message contact area*/
