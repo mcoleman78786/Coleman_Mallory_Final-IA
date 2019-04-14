@@ -50,10 +50,14 @@
       <h2 class="hidden">Contact Form</h2>
       <form id="contactForm" action="contact.php" method="get">
               <div id="form">
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="phonenumber" placeholder="Phone Number">
-                <input type="message" placeholder="Message">
+                <label for="Name"></label>
+                <input type="text" required="Name" placeholder="Name">
+                <label for="Email"></label>
+                <input type="email" required="Email" placeholder="Email">
+                <label for="phoneNumber"></label>
+                <input type="phonenumber" required="Phone Number" placeholder="Phone Number">
+                <label for="message" required="Message"></label>
+                <input type="message" id="message" placeholder="Message">
                 <input type="submit" value="Submit">
               </div>
             </form>
