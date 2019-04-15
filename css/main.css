@@ -2332,44 +2332,18 @@ font-size: 40px;
       color: #3E3C3C;
     }
 
-
-
-    /*Light Box Video*/
-  /*.lightboxVideo
-  {
-    position: fixed;
-    top: 0;
-    left: 0px;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    background: rgba(255,255,255,0.7);
-    display: none;
-    padding-top: 170px;
+    img.hover-shadow 
+    {
+      transition: 0.3s;
     }
-*//*
-    .lightvideo
+
+
+    .hover-shadow:hover 
     {
-      margin: 0 auto;
-      display: block;
-      width: 365px;
-      height: 353px;
-    }*/
-/*
-    .show-lightBoxVideo
-    {
-      display: block;
-    }*/
-/*
-    .closeLightBlock
-    {
-      color: #5D7132;
-      position: absolute;
-      left: 80%;
-      font-size: 60px;
-      top: 0%;
-      padding-top: 40px;
-    }*/
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
 
 .galleryTop, #gallerybottom
 {
